@@ -1,0 +1,2897 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script
+    type="text/javascript">(window.NREUM || (NREUM = {})).init = { ajax: { deny_list: ["bam.nr-data.net"] } }; (window.NREUM || (NREUM = {})).loader_config = { licenseKey: "NRJS-41a5a2f008560c7bdc5", applicationID: "522948469" };;/*! For license information please see nr-loader-rum-1.248.0.min.js.LICENSE.txt */
+      (() => { var e, t, n = { 234: (e, t, n) => { "use strict"; n.d(t, { P_: () => h, Mt: () => m, C5: () => s, DL: () => w, OP: () => j, lF: () => R, Yu: () => _, Dg: () => v, CX: () => c, GE: () => A, sU: () => T }); var r = n(8632), i = n(9567); const a = { beacon: r.ce.beacon, errorBeacon: r.ce.errorBeacon, licenseKey: void 0, applicationID: void 0, sa: void 0, queueTime: void 0, applicationTime: void 0, ttGuid: void 0, user: void 0, account: void 0, product: void 0, extra: void 0, jsAttributes: {}, userAttributes: void 0, atts: void 0, transactionName: void 0, tNamePlain: void 0 }, o = {}; function s(e) { if (!e) throw new Error("All info objects require an agent identifier!"); if (!o[e]) throw new Error("Info for ".concat(e, " was never set")); return o[e] } function c(e, t) { if (!e) throw new Error("All info objects require an agent identifier!"); o[e] = (0, i.D)(t, a); const n = (0, r.ek)(e); n && (n.info = o[e]) } const u = e => { if (!e || "string" != typeof e) return !1; try { document.createDocumentFragment().querySelector(e) } catch { return !1 } return !0 }; var d = n(7056), l = n(50); const f = () => { const e = { mask_selector: "*", block_selector: "[data-nr-block]", mask_input_options: { color: !1, date: !1, "datetime-local": !1, email: !1, month: !1, number: !1, range: !1, search: !1, tel: !1, text: !1, time: !1, url: !1, week: !1, textarea: !1, select: !1, password: !0 } }; return { feature_flags: [], proxy: { assets: void 0, beacon: void 0 }, privacy: { cookies_enabled: !0 }, ajax: { deny_list: void 0, block_internal: !0, enabled: !0, harvestTimeSeconds: 10, autoStart: !0 }, distributed_tracing: { enabled: void 0, exclude_newrelic_header: void 0, cors_use_newrelic_header: void 0, cors_use_tracecontext_headers: void 0, allowed_origins: void 0 }, session: { domain: void 0, expiresMs: d.oD, inactiveMs: d.Hb }, ssl: void 0, obfuscate: void 0, jserrors: { enabled: !0, harvestTimeSeconds: 10, autoStart: !0 }, metrics: { enabled: !0, autoStart: !0 }, page_action: { enabled: !0, harvestTimeSeconds: 30, autoStart: !0 }, page_view_event: { enabled: !0, autoStart: !0 }, page_view_timing: { enabled: !0, harvestTimeSeconds: 30, long_task: !1, autoStart: !0 }, session_trace: { enabled: !0, harvestTimeSeconds: 10, autoStart: !0 }, harvest: { tooManyRequestsDelay: 60 }, session_replay: { autoStart: !0, enabled: !1, harvestTimeSeconds: 60, sampling_rate: 50, error_sampling_rate: 50, collect_fonts: !1, inline_images: !1, inline_stylesheet: !0, mask_all_inputs: !0, get mask_text_selector() { return e.mask_selector }, set mask_text_selector(t) { u(t) ? e.mask_selector = t + ",[data-nr-mask]" : null === t ? e.mask_selector = t : (0, l.Z)("An invalid session_replay.mask_selector was provided and will not be used", t) }, get block_class() { return "nr-block" }, get ignore_class() { return "nr-ignore" }, get mask_text_class() { return "nr-mask" }, get block_selector() { return e.block_selector }, set block_selector(t) { u(t) ? e.block_selector += ",".concat(t) : "" !== t && (0, l.Z)("An invalid session_replay.block_selector was provided and will not be used", t) }, get mask_input_options() { return e.mask_input_options }, set mask_input_options(t) { t && "object" == typeof t ? e.mask_input_options = { ...t, password: !0 } : (0, l.Z)("An invalid session_replay.mask_input_option was provided and will not be used", t) } }, spa: { enabled: !0, harvestTimeSeconds: 10, autoStart: !0 } } }, g = {}, p = "All configuration objects require an agent identifier!"; function h(e) { if (!e) throw new Error(p); if (!g[e]) throw new Error("Configuration for ".concat(e, " was never set")); return g[e] } function v(e, t) { if (!e) throw new Error(p); g[e] = (0, i.D)(t, f()); const n = (0, r.ek)(e); n && (n.init = g[e]) } function m(e, t) { if (!e) throw new Error(p); var n = h(e); if (n) { for (var r = t.split("."), i = 0; i < r.length - 1; i++)if ("object" != typeof (n = n[r[i]])) return; n = n[r[r.length - 1]] } return n } const b = { accountID: void 0, trustKey: void 0, agentID: void 0, licenseKey: void 0, applicationID: void 0, xpid: void 0 }, y = {}; function w(e) { if (!e) throw new Error("All loader-config objects require an agent identifier!"); if (!y[e]) throw new Error("LoaderConfig for ".concat(e, " was never set")); return y[e] } function A(e, t) { if (!e) throw new Error("All loader-config objects require an agent identifier!"); y[e] = (0, i.D)(t, b); const n = (0, r.ek)(e); n && (n.loader_config = y[e]) } const _ = (0, r.mF)().o; var x = n(385), D = n(6818); const k = { buildEnv: D.Re, customTransaction: void 0, disabled: !1, distMethod: D.gF, isolatedBacklog: !1, loaderType: void 0, maxBytes: 3e4, offset: Math.floor(x._A?.performance?.timeOrigin || x._A?.performance?.timing?.navigationStart || Date.now()), onerror: void 0, origin: "" + x._A.location, ptid: void 0, releaseIds: {}, session: void 0, xhrWrappable: "function" == typeof x._A.XMLHttpRequest?.prototype?.addEventListener, version: D.q4, denyList: void 0 }, E = {}; function j(e) { if (!e) throw new Error("All runtime objects require an agent identifier!"); if (!E[e]) throw new Error("Runtime for ".concat(e, " was never set")); return E[e] } function T(e, t) { if (!e) throw new Error("All runtime objects require an agent identifier!"); E[e] = (0, i.D)(t, k); const n = (0, r.ek)(e); n && (n.runtime = E[e]) } function R(e) { return function (e) { try { const t = s(e); return !!t.licenseKey && !!t.errorBeacon && !!t.applicationID } catch (e) { return !1 } }(e) } }, 9567: (e, t, n) => { "use strict"; n.d(t, { D: () => i }); var r = n(50); function i(e, t) { try { if (!e || "object" != typeof e) return (0, r.Z)("Setting a Configurable requires an object as input"); if (!t || "object" != typeof t) return (0, r.Z)("Setting a Configurable requires a model to set its initial properties"); const n = Object.create(Object.getPrototypeOf(t), Object.getOwnPropertyDescriptors(t)), a = 0 === Object.keys(n).length ? e : n; for (let o in a) if (void 0 !== e[o]) try { Array.isArray(e[o]) && Array.isArray(t[o]) ? n[o] = Array.from(new Set([...e[o], ...t[o]])) : "object" == typeof e[o] && "object" == typeof t[o] ? n[o] = i(e[o], t[o]) : n[o] = e[o] } catch (e) { (0, r.Z)("An error occurred while setting a property of a Configurable", e) } return n } catch (e) { (0, r.Z)("An error occured while setting a Configurable", e) } } }, 6818: (e, t, n) => { "use strict"; n.d(t, { Re: () => i, gF: () => a, q4: () => r }); const r = "1.248.0", i = "PROD", a = "CDN" }, 385: (e, t, n) => { "use strict"; n.d(t, { Nk: () => d, Tt: () => s, _A: () => a, cv: () => l, iS: () => o, il: () => r, ux: () => c, v6: () => i, w1: () => u }); const r = "undefined" != typeof window && !!window.document, i = "undefined" != typeof WorkerGlobalScope && ("undefined" != typeof self && self instanceof WorkerGlobalScope && self.navigator instanceof WorkerNavigator || "undefined" != typeof globalThis && globalThis instanceof WorkerGlobalScope && globalThis.navigator instanceof WorkerNavigator), a = r ? window : "undefined" != typeof WorkerGlobalScope && ("undefined" != typeof self && self instanceof WorkerGlobalScope && self || "undefined" != typeof globalThis && globalThis instanceof WorkerGlobalScope && globalThis), o = (a?.document?.readyState, Boolean("hidden" === a?.document?.visibilityState)), s = (a?.location, /iPad|iPhone|iPod/.test(a.navigator?.userAgent)), c = s && "undefined" == typeof SharedWorker, u = ((() => { const e = a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/); Array.isArray(e) && e.length >= 2 && e[1] })(), Boolean(r && window.document.documentMode)), d = !!a.navigator?.sendBeacon, l = Math.floor(a?.performance?.timeOrigin || a?.performance?.timing?.navigationStart || Date.now()) }, 1117: (e, t, n) => { "use strict"; n.d(t, { w: () => a }); var r = n(50); const i = { agentIdentifier: "", ee: void 0 }; class a { constructor(e) { try { if ("object" != typeof e) return (0, r.Z)("shared context requires an object as input"); this.sharedContext = {}, Object.assign(this.sharedContext, i), Object.entries(e).forEach((e => { let [t, n] = e; Object.keys(i).includes(t) && (this.sharedContext[t] = n) })) } catch (e) { (0, r.Z)("An error occured while setting SharedContext", e) } } } }, 8e3: (e, t, n) => { "use strict"; n.d(t, { L: () => d, R: () => c }); var r = n(8325), i = n(1284), a = n(4322), o = n(3325); const s = {}; function c(e, t) { const n = { staged: !1, priority: o.p[t] || 0 }; u(e), s[e].get(t) || s[e].set(t, n) } function u(e) { e && (s[e] || (s[e] = new Map)) } function d() { let e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "", t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "feature"; if (u(e), !e || !s[e].get(t)) return o(t); s[e].get(t).staged = !0; const n = [...s[e]]; function o(t) { const n = e ? r.ee.get(e) : r.ee, o = a.X.handlers; if (n.backlog && o) { var s = n.backlog[t], c = o[t]; if (c) { for (var u = 0; s && u < s.length; ++u)l(s[u], c); (0, i.D)(c, (function (e, t) { (0, i.D)(t, (function (t, n) { n[0].on(e, n[1]) })) })) } delete o[t], n.backlog[t] = null, n.emit("drain-" + t, []) } } n.every((e => { let [t, n] = e; return n.staged })) && (n.sort(((e, t) => e[1].priority - t[1].priority)), n.forEach((t => { let [n] = t; s[e].delete(n), o(n) }))) } function l(e, t) { var n = e[1]; (0, i.D)(t[n], (function (t, n) { var r = e[0]; if (n[0] === r) { var i = n[1], a = e[3], o = e[2]; i.apply(a, o) } })) } }, 8325: (e, t, n) => { "use strict"; n.d(t, { A: () => c, ee: () => u }); var r = n(8632), i = n(2210), a = n(234); class o { constructor(e) { this.contextId = e } } var s = n(3117); const c = "nr@context:".concat(s.a), u = function e(t, n) { var r = {}, s = {}, d = {}, f = !1; try { f = 16 === n.length && (0, a.OP)(n).isolatedBacklog } catch (e) { } var g = { on: h, addEventListener: h, removeEventListener: function (e, t) { var n = r[e]; if (!n) return; for (var i = 0; i < n.length; i++)n[i] === t && n.splice(i, 1) }, emit: function (e, n, r, i, a) { !1 !== a && (a = !0); if (u.aborted && !i) return; t && a && t.emit(e, n, r); for (var o = p(r), c = v(e), d = c.length, l = 0; l < d; l++)c[l].apply(o, n); var f = b()[s[e]]; f && f.push([g, e, n, o]); return o }, get: m, listeners: v, context: p, buffer: function (e, t) { const n = b(); if (t = t || "feature", g.aborted) return; Object.entries(e || {}).forEach((e => { let [r, i] = e; s[i] = t, t in n || (n[t] = []) })) }, abort: l, aborted: !1, isBuffering: function (e) { return !!b()[s[e]] }, debugId: n, backlog: f ? {} : t && "object" == typeof t.backlog ? t.backlog : {} }; return g; function p(e) { return e && e instanceof o ? e : e ? (0, i.X)(e, c, (() => new o(c))) : new o(c) } function h(e, t) { r[e] = v(e).concat(t) } function v(e) { return r[e] || [] } function m(t) { return d[t] = d[t] || e(g, t) } function b() { return g.backlog } }(void 0, "globalEE"), d = (0, r.fP)(); function l() { u.aborted = !0, u.backlog = {} } d.ee || (d.ee = u) }, 5546: (e, t, n) => { "use strict"; n.d(t, { E: () => r, p: () => i }); var r = n(8325).ee.get("handle"); function i(e, t, n, i, a) { a ? (a.buffer([e], i), a.emit(e, t, n)) : (r.buffer([e], i), r.emit(e, t, n)) } }, 4322: (e, t, n) => { "use strict"; n.d(t, { X: () => a }); var r = n(5546); a.on = o; var i = a.handlers = {}; function a(e, t, n, a) { o(a || r.E, i, e, t, n) } function o(e, t, n, i, a) { a || (a = "feature"), e || (e = r.E); var o = t[a] = t[a] || {}; (o[n] = o[n] || []).push([e, i]) } }, 3239: (e, t, n) => { "use strict"; n.d(t, { bP: () => s, iz: () => c, m$: () => o }); var r = n(385); let i = !1, a = !1; try { const e = { get passive() { return i = !0, !1 }, get signal() { return a = !0, !1 } }; r._A.addEventListener("test", null, e), r._A.removeEventListener("test", null, e) } catch (e) { } function o(e, t) { return i || a ? { capture: !!e, passive: i, signal: t } : !!e } function s(e, t) { let n = arguments.length > 2 && void 0 !== arguments[2] && arguments[2], r = arguments.length > 3 ? arguments[3] : void 0; window.addEventListener(e, t, o(n, r)) } function c(e, t) { let n = arguments.length > 2 && void 0 !== arguments[2] && arguments[2], r = arguments.length > 3 ? arguments[3] : void 0; document.addEventListener(e, t, o(n, r)) } }, 3117: (e, t, n) => { "use strict"; n.d(t, { a: () => r }); const r = (0, n(4402).Rl)() }, 4402: (e, t, n) => { "use strict"; n.d(t, { Rl: () => o, ky: () => s }); var r = n(385); const i = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx"; function a(e, t) { return e ? 15 & e[t] : 16 * Math.random() | 0 } function o() { const e = r._A?.crypto || r._A?.msCrypto; let t, n = 0; return e && e.getRandomValues && (t = e.getRandomValues(new Uint8Array(31))), i.split("").map((e => "x" === e ? a(t, ++n).toString(16) : "y" === e ? (3 & a() | 8).toString(16) : e)).join("") } function s(e) { const t = r._A?.crypto || r._A?.msCrypto; let n, i = 0; t && t.getRandomValues && (n = t.getRandomValues(new Uint8Array(31))); const o = []; for (var s = 0; s < e; s++)o.push(a(n, ++i).toString(16)); return o.join("") } }, 7056: (e, t, n) => { "use strict"; n.d(t, { Bq: () => r, Hb: () => a, oD: () => i }); const r = "NRBA", i = 144e5, a = 18e5 }, 7894: (e, t, n) => { "use strict"; function r() { return Math.round(performance.now()) } n.d(t, { z: () => r }) }, 50: (e, t, n) => { "use strict"; function r(e, t) { "function" == typeof console.warn && (console.warn("New Relic: ".concat(e)), t && console.warn(t)) } n.d(t, { Z: () => r }) }, 2825: (e, t, n) => { "use strict"; n.d(t, { N: () => d, T: () => l }); var r = n(8325), i = n(5546), a = n(3325), o = n(385); const s = "newrelic"; const c = { stn: [a.D.sessionTrace], err: [a.D.jserrors, a.D.metrics], ins: [a.D.pageAction], spa: [a.D.spa], sr: [a.D.sessionReplay, a.D.sessionTrace] }, u = new Set; function d(e, t) { const n = r.ee.get(t); e && "object" == typeof e && (u.has(t) || (Object.entries(e).forEach((e => { let [t, r] = e; c[t] ? c[t].forEach((e => { r ? (0, i.p)("feat-" + t, [], void 0, e, n) : (0, i.p)("block-" + t, [], void 0, e, n), (0, i.p)("rumresp-" + t, [Boolean(r)], void 0, e, n) })) : r && (0, i.p)("feat-" + t, [], void 0, void 0, n), l[t] = Boolean(r) })), Object.keys(c).forEach((e => { void 0 === l[e] && (c[e]?.forEach((t => (0, i.p)("rumresp-" + e, [!1], void 0, t, n))), l[e] = !1) })), u.add(t), function () { let e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}; try { o._A.dispatchEvent(new CustomEvent(s, { detail: e })) } catch (e) { } }({ loaded: !0 }))) } const l = {} }, 2210: (e, t, n) => { "use strict"; n.d(t, { X: () => i }); var r = Object.prototype.hasOwnProperty; function i(e, t, n) { if (r.call(e, t)) return e[t]; var i = n(); if (Object.defineProperty && Object.keys) try { return Object.defineProperty(e, t, { value: i, writable: !0, enumerable: !1 }), i } catch (e) { } return e[t] = i, i } }, 1284: (e, t, n) => { "use strict"; n.d(t, { D: () => r }); const r = (e, t) => Object.entries(e || {}).map((e => { let [n, r] = e; return t(n, r) })) }, 4351: (e, t, n) => { "use strict"; n.d(t, { P: () => a }); var r = n(8325); const i = () => { const e = new WeakSet; return (t, n) => { if ("object" == typeof n && null !== n) { if (e.has(n)) return; e.add(n) } return n } }; function a(e) { try { return JSON.stringify(e, i()) } catch (e) { try { r.ee.emit("internal-error", [e]) } catch (e) { } } } }, 3960: (e, t, n) => { "use strict"; n.d(t, { KB: () => o, b2: () => a }); var r = n(3239); function i() { return "undefined" == typeof document || "complete" === document.readyState } function a(e, t) { if (i()) return e(); (0, r.bP)("load", e, t) } function o(e) { if (i()) return e(); (0, r.iz)("DOMContentLoaded", e) } }, 8632: (e, t, n) => { "use strict"; n.d(t, { EZ: () => d, ce: () => a, ek: () => u, fP: () => o, gG: () => l, h5: () => c, mF: () => s }); var r = n(7894), i = n(385); const a = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net" }; function o() { return i._A.NREUM || (i._A.NREUM = {}), void 0 === i._A.newrelic && (i._A.newrelic = i._A.NREUM), i._A.NREUM } function s() { let e = o(); return e.o || (e.o = { ST: i._A.setTimeout, SI: i._A.setImmediate, CT: i._A.clearTimeout, XHR: i._A.XMLHttpRequest, REQ: i._A.Request, EV: i._A.Event, PR: i._A.Promise, MO: i._A.MutationObserver, FETCH: i._A.fetch }), e } function c(e, t) { let n = o(); n.initializedAgents ??= {}, t.initializedAt = { ms: (0, r.z)(), date: new Date }, n.initializedAgents[e] = t } function u(e) { let t = o(); return t.initializedAgents?.[e] } function d(e, t) { o()[e] = t } function l() { return function () { let e = o(); const t = e.info || {}; e.info = { beacon: a.beacon, errorBeacon: a.errorBeacon, ...t } }(), function () { let e = o(); const t = e.init || {}; e.init = { ...t } }(), s(), function () { let e = o(); const t = e.loader_config || {}; e.loader_config = { ...t } }(), o() } }, 7956: (e, t, n) => { "use strict"; n.d(t, { N: () => i }); var r = n(3239); function i(e) { let t = arguments.length > 1 && void 0 !== arguments[1] && arguments[1], n = arguments.length > 2 ? arguments[2] : void 0, i = arguments.length > 3 ? arguments[3] : void 0; (0, r.iz)("visibilitychange", (function () { if (t) return void ("hidden" === document.visibilityState && e()); e(document.visibilityState) }), n, i) } }, 3081: (e, t, n) => { "use strict"; n.d(t, { gF: () => a, mY: () => i, t9: () => r, vz: () => s, xS: () => o }); const r = n(3325).D.metrics, i = "sm", a = "cm", o = "storeSupportabilityMetrics", s = "storeEventMetrics" }, 7633: (e, t, n) => { "use strict"; n.d(t, { t: () => r }); const r = n(3325).D.pageViewEvent }, 9251: (e, t, n) => { "use strict"; n.d(t, { t: () => r }); const r = n(3325).D.pageViewTiming }, 5938: (e, t, n) => { "use strict"; n.d(t, { W: () => i }); var r = n(8325); class i { constructor(e, t, n) { this.agentIdentifier = e, this.aggregator = t, this.ee = r.ee.get(e), this.featureName = n, this.blocked = !1 } } }, 7530: (e, t, n) => { "use strict"; n.d(t, { j: () => b }); var r = n(3325), i = n(234), a = n(5546), o = n(8325), s = n(7894), c = n(8e3), u = n(3960), d = n(385), l = n(50), f = n(3081), g = n(8632); function p() { const e = (0, g.gG)();["setErrorHandler", "finished", "addToTrace", "addRelease", "addPageAction", "setCurrentRouteName", "setPageViewName", "setCustomAttribute", "interaction", "noticeError", "setUserId", "setApplicationVersion", "start", "recordReplay", "pauseReplay"].forEach((t => { e[t] = function () { for (var n = arguments.length, r = new Array(n), i = 0; i < n; i++)r[i] = arguments[i]; return function (t) { for (var n = arguments.length, r = new Array(n > 1 ? n - 1 : 0), i = 1; i < n; i++)r[i - 1] = arguments[i]; let a = []; return Object.values(e.initializedAgents).forEach((e => { e.exposed && e.api[t] && a.push(e.api[t](...r)) })), a.length > 1 ? a : a[0] }(t, ...r) } })) } var h = n(2825); const v = e => { const t = e.startsWith("http"); e += "/", n.p = t ? e : "https://" + e }; let m = !1; function b(e) { let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}, b = arguments.length > 2 ? arguments[2] : void 0, y = arguments.length > 3 ? arguments[3] : void 0, { init: w, info: A, loader_config: _, runtime: x = { loaderType: b }, exposed: D = !0 } = t; const k = (0, g.gG)(); A || (w = k.init, A = k.info, _ = k.loader_config), (0, i.Dg)(e.agentIdentifier, w || {}), (0, i.GE)(e.agentIdentifier, _ || {}), A.jsAttributes ??= {}, d.v6 && (A.jsAttributes.isWorker = !0), (0, i.CX)(e.agentIdentifier, A); const E = (0, i.P_)(e.agentIdentifier), j = [A.beacon, A.errorBeacon]; m || (E.proxy.assets && (v(E.proxy.assets), j.push(E.proxy.assets)), E.proxy.beacon && j.push(E.proxy.beacon), p(), (0, g.EZ)("activatedFeatures", h.T)), x.denyList = [...E.ajax.deny_list || [], ...E.ajax.block_internal ? j : []], (0, i.sU)(e.agentIdentifier, x), void 0 === e.api && (e.api = function (e, t) { t || (0, c.R)(e, "api"); const g = {}; var p = o.ee.get(e), h = p.get("tracer"), v = "api-", m = v + "ixn-"; function b(t, n, r, a) { const o = (0, i.C5)(e); return null === n ? delete o.jsAttributes[t] : (0, i.CX)(e, { ...o, jsAttributes: { ...o.jsAttributes, [t]: n } }), A(v, r, !0, a || null === n ? "session" : void 0)(t, n) } function y() { } ["setErrorHandler", "finished", "addToTrace", "addRelease"].forEach((e => { g[e] = A(v, e, !0, "api") })), g.addPageAction = A(v, "addPageAction", !0, r.D.pageAction), g.setCurrentRouteName = A(v, "routeName", !0, r.D.spa), g.setPageViewName = function (t, n) { if ("string" == typeof t) return "/" !== t.charAt(0) && (t = "/" + t), (0, i.OP)(e).customTransaction = (n || "http://custom.transaction") + t, A(v, "setPageViewName", !0)() }, g.setCustomAttribute = function (e, t) { let n = arguments.length > 2 && void 0 !== arguments[2] && arguments[2]; if ("string" == typeof e) { if (["string", "number", "boolean"].includes(typeof t) || null === t) return b(e, t, "setCustomAttribute", n); (0, l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t, "> was provided.")) } else (0, l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e, "> was provided.")) }, g.setUserId = function (e) { if ("string" == typeof e || null === e) return b("enduser.id", e, "setUserId", !0); (0, l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e, "> was provided.")) }, g.setApplicationVersion = function (e) { if ("string" == typeof e || null === e) return b("application.version", e, "setApplicationVersion", !1); (0, l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e, ">.")) }, g.start = e => { try { const t = e ? "defined" : "undefined"; (0, a.p)(f.xS, ["API/start/".concat(t, "/called")], void 0, r.D.metrics, p); const n = Object.values(r.D); if (void 0 === e) e = n; else { if ((e = Array.isArray(e) && e.length ? e : [e]).some((e => !n.includes(e)))) return (0, l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n)); e.includes(r.D.pageViewEvent) || e.push(r.D.pageViewEvent) } e.forEach((e => { p.emit("".concat(e, "-opt-in")) })) } catch (e) { (0, l.Z)("An unexpected issue occurred", e) } }, g.recordReplay = function () { (0, a.p)(f.xS, ["API/recordReplay/called"], void 0, r.D.metrics, p), (0, a.p)("recordReplay", [], void 0, r.D.sessionReplay, p) }, g.pauseReplay = function () { (0, a.p)(f.xS, ["API/pauseReplay/called"], void 0, r.D.metrics, p), (0, a.p)("pauseReplay", [], void 0, r.D.sessionReplay, p) }, g.interaction = function () { return (new y).get() }; var w = y.prototype = { createTracer: function (e, t) { var n = {}, i = this, o = "function" == typeof t; return (0, a.p)(f.xS, ["API/createTracer/called"], void 0, r.D.metrics, p), (0, a.p)(m + "tracer", [(0, s.z)(), e, n], i, r.D.spa, p), function () { if (h.emit((o ? "" : "no-") + "fn-start", [(0, s.z)(), i, o], n), o) try { return t.apply(this, arguments) } catch (e) { throw h.emit("fn-err", [arguments, this, e], n), e } finally { h.emit("fn-end", [(0, s.z)()], n) } } } }; function A(e, t, n, i) { return function () { return (0, a.p)(f.xS, ["API/" + t + "/called"], void 0, r.D.metrics, p), i && (0, a.p)(e + t, [(0, s.z)(), ...arguments], n ? null : this, i, p), n ? void 0 : this } } function _() { n.e(75).then(n.bind(n, 7438)).then((t => { let { setAPI: n } = t; n(e), (0, c.L)(e, "api") })).catch((() => (0, l.Z)("Downloading runtime APIs failed..."))) } return ["actionText", "setName", "setAttribute", "save", "ignore", "onEnd", "getContext", "end", "get"].forEach((e => { w[e] = A(m, e, void 0, r.D.spa) })), g.noticeError = function (e, t) { "string" == typeof e && (e = new Error(e)), (0, a.p)(f.xS, ["API/noticeError/called"], void 0, r.D.metrics, p), (0, a.p)("err", [e, (0, s.z)(), !1, t], void 0, r.D.jserrors, p) }, d.il ? (0, u.b2)((() => _()), !0) : _(), g }(e.agentIdentifier, y)), void 0 === e.exposed && (e.exposed = D), m = !0 } }, 1926: (e, t, n) => { n.nc = (() => { try { return document?.currentScript?.nonce } catch (e) { } return "" })() }, 3325: (e, t, n) => { "use strict"; n.d(t, { D: () => r, p: () => i }); const r = { ajax: "ajax", jserrors: "jserrors", metrics: "metrics", pageAction: "page_action", pageViewEvent: "page_view_event", pageViewTiming: "page_view_timing", sessionReplay: "session_replay", sessionTrace: "session_trace", spa: "spa" }, i = { [r.pageViewEvent]: 1, [r.pageViewTiming]: 2, [r.metrics]: 3, [r.jserrors]: 4, [r.ajax]: 5, [r.sessionTrace]: 6, [r.pageAction]: 7, [r.spa]: 8, [r.sessionReplay]: 9 } } }, r = {}; function i(e) { var t = r[e]; if (void 0 !== t) return t.exports; var a = r[e] = { exports: {} }; return n[e](a, a.exports, i), a.exports } i.m = n, i.d = (e, t) => { for (var n in t) i.o(t, n) && !i.o(e, n) && Object.defineProperty(e, n, { enumerable: !0, get: t[n] }) }, i.f = {}, i.e = e => Promise.all(Object.keys(i.f).reduce(((t, n) => (i.f[n](e, t), t)), [])), i.u = e => "nr-rum-1.248.0.min.js", i.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t), e = {}, t = "NRBA-1.248.0.PROD:", i.l = (n, r, a, o) => { if (e[n]) e[n].push(r); else { var s, c; if (void 0 !== a) for (var u = document.getElementsByTagName("script"), d = 0; d < u.length; d++) { var l = u[d]; if (l.getAttribute("src") == n || l.getAttribute("data-webpack") == t + a) { s = l; break } } s || (c = !0, (s = document.createElement("script")).charset = "utf-8", s.timeout = 120, i.nc && s.setAttribute("nonce", i.nc), s.setAttribute("data-webpack", t + a), s.src = n, 0 !== s.src.indexOf(window.location.origin + "/") && (s.crossOrigin = "anonymous"), s.integrity = i.sriHashes[o], s.crossOrigin = "anonymous"), e[n] = [r]; var f = (t, r) => { s.onerror = s.onload = null, clearTimeout(g); var i = e[n]; if (delete e[n], s.parentNode && s.parentNode.removeChild(s), i && i.forEach((e => e(r))), t) return t(r) }, g = setTimeout(f.bind(null, void 0, { type: "timeout", target: s }), 12e4); s.onerror = f.bind(null, s.onerror), s.onload = f.bind(null, s.onload), c && document.head.appendChild(s) } }, i.r = e => { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, i.p = "https://js-agent.newrelic.com/", i.sriHashes = { 75: "sha512-5mWtMwj7hrXT5aUkfvBtjH6FJXsR+zdeMBfc721nzrOx36xa23yTrCB1VVOAQa+zIioAbWPW4m7UsPp7hW1WPw==" }, (() => { var e = { 50: 0, 832: 0 }; i.f.j = (t, n) => { var r = i.o(e, t) ? e[t] : void 0; if (0 !== r) if (r) n.push(r[2]); else { var a = new Promise(((n, i) => r = e[t] = [n, i])); n.push(r[2] = a); var o = i.p + i.u(t), s = new Error; i.l(o, (n => { if (i.o(e, t) && (0 !== (r = e[t]) && (e[t] = void 0), r)) { var a = n && ("load" === n.type ? "missing" : n.type), o = n && n.target && n.target.src; s.message = "Loading chunk " + t + " failed.\n(" + a + ": " + o + ")", s.name = "ChunkLoadError", s.type = a, s.request = o, r[1](s) } }), "chunk-" + t, t) } }; var t = (t, n) => { var r, a, [o, s, c] = n, u = 0; if (o.some((t => 0 !== e[t]))) { for (r in s) i.o(s, r) && (i.m[r] = s[r]); if (c) c(i) } for (t && t(n); u < o.length; u++)a = o[u], i.o(e, a) && e[a] && e[a][0](), e[a] = 0 }, n = self["webpackChunk:NRBA-1.248.0.PROD"] = self["webpackChunk:NRBA-1.248.0.PROD"] || []; n.forEach(t.bind(null, 0)), n.push = t.bind(null, n.push.bind(n)) })(), (() => { "use strict"; i(1926); var e = i(50); class t { addPageAction(t, n) { (0, e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.") } setPageViewName(t, n) { (0, e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.") } setCustomAttribute(t, n, r) { (0, e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.") } noticeError(t, n) { (0, e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.") } setUserId(t) { (0, e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.") } setApplicationVersion(t) { (0, e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.") } setErrorHandler(t) { (0, e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.") } finished(t) { (0, e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.") } addRelease(t, n) { (0, e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.") } start(t) { (0, e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.") } recordReplay() { (0, e.Z)("Call to agent api recordReplay failed. The agent is not currently initialized.") } pauseReplay() { (0, e.Z)("Call to agent api pauseReplay failed. The agent is not currently initialized.") } } var n = i(3325), r = i(234); const a = Object.values(n.D); function o(e) { const t = {}; return a.forEach((n => { t[n] = function (e, t) { return !1 !== (0, r.Mt)(t, "".concat(e, ".enabled")) }(n, e) })), t } var s = i(7530); var c = i(8e3), u = i(5938), d = i(3960), l = i(385); class f extends u.W { constructor(e, t, n) { let i = !(arguments.length > 3 && void 0 !== arguments[3]) || arguments[3]; super(e, t, n), this.auto = i, this.abortHandler = void 0, this.featAggregate = void 0, this.onAggregateImported = void 0, !1 === (0, r.Mt)(this.agentIdentifier, "".concat(this.featureName, ".autoStart")) && (this.auto = !1), this.auto && (0, c.R)(e, n) } importAggregator() { let t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}; if (this.featAggregate) return; if (!this.auto) return void this.ee.on("".concat(this.featureName, "-opt-in"), (() => { (0, c.R)(this.agentIdentifier, this.featureName), this.auto = !0, this.importAggregator() })); const n = l.il && !0 === (0, r.Mt)(this.agentIdentifier, "privacy.cookies_enabled"); let a; this.onAggregateImported = new Promise((e => { a = e })); const o = async () => { let r; try { if (n) { const { setupAgentSession: e } = await i.e(75).then(i.bind(i, 3228)); r = e(this.agentIdentifier) } } catch (t) { (0, e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.", t) } try { if (!this.shouldImportAgg(this.featureName, r)) return (0, c.L)(this.agentIdentifier, this.featureName), void a(!1); const { lazyFeatureLoader: e } = await i.e(75).then(i.bind(i, 8582)), { Aggregate: n } = await e(this.featureName, "aggregate"); this.featAggregate = new n(this.agentIdentifier, this.aggregator, t), a(!0) } catch (t) { (0, e.Z)("Downloading and initializing ".concat(this.featureName, " failed..."), t), this.abortHandler?.(), (0, c.L)(this.agentIdentifier, this.featureName), a(!1) } }; l.il ? (0, d.b2)((() => o()), !0) : o() } shouldImportAgg(e, t) { return e !== n.D.sessionReplay || !!r.Yu.MO && (!1 !== (0, r.Mt)(this.agentIdentifier, "session_trace.enabled") && (!!t?.isNew || !!t?.state.sessionReplayMode)) } } var g = i(7633); class p extends f { static featureName = g.t; constructor(e, t) { let n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, g.t, n), this.importAggregator() } } var h = i(1117), v = i(1284); class m extends h.w { constructor(e) { super(e), this.aggregatedData = {} } store(e, t, n, r, i) { var a = this.getBucket(e, t, n, i); return a.metrics = function (e, t) { t || (t = { count: 0 }); return t.count += 1, (0, v.D)(e, (function (e, n) { t[e] = b(n, t[e]) })), t }(r, a.metrics), a } merge(e, t, n, r, i) { var a = this.getBucket(e, t, r, i); if (a.metrics) { var o = a.metrics; o.count += n.count, (0, v.D)(n, (function (e, t) { if ("count" !== e) { var r = o[e], i = n[e]; i && !i.c ? o[e] = b(i.t, r) : o[e] = function (e, t) { if (!t) return e; t.c || (t = y(t.t)); return t.min = Math.min(e.min, t.min), t.max = Math.max(e.max, t.max), t.t += e.t, t.sos += e.sos, t.c += e.c, t }(i, o[e]) } })) } else a.metrics = n } storeMetric(e, t, n, r) { var i = this.getBucket(e, t, n); return i.stats = b(r, i.stats), i } getBucket(e, t, n, r) { this.aggregatedData[e] || (this.aggregatedData[e] = {}); var i = this.aggregatedData[e][t]; return i || (i = this.aggregatedData[e][t] = { params: n || {} }, r && (i.custom = r)), i } get(e, t) { return t ? this.aggregatedData[e] && this.aggregatedData[e][t] : this.aggregatedData[e] } take(e) { for (var t = {}, n = "", r = !1, i = 0; i < e.length; i++)t[n = e[i]] = w(this.aggregatedData[n]), t[n].length && (r = !0), delete this.aggregatedData[n]; return r ? t : null } } function b(e, t) { return null == e ? function (e) { e ? e.c++ : e = { c: 1 }; return e }(t) : t ? (t.c || (t = y(t.t)), t.c += 1, t.t += e, t.sos += e * e, e > t.max && (t.max = e), e < t.min && (t.min = e), t) : { t: e } } function y(e) { return { t: e, min: e, max: e, sos: e * e, c: 1 } } function w(e) { return "object" != typeof e ? [] : (0, v.D)(e, A) } function A(e, t) { return t } var _ = i(8632), x = i(4402), D = i(4351); var k = i(5546), E = i(7956), j = i(3239), T = i(7894), R = i(9251); class S extends f { static featureName = R.t; constructor(e, t) { let n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, R.t, n), l.il && ((0, E.N)((() => (0, k.p)("docHidden", [(0, T.z)()], void 0, R.t, this.ee)), !0), (0, j.bP)("pagehide", (() => (0, k.p)("winPagehide", [(0, T.z)()], void 0, R.t, this.ee))), this.importAggregator()) } } var I = i(3081); class C extends f { static featureName = I.t9; constructor(e, t) { let n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, I.t9, n), this.importAggregator() } } new class extends t { constructor(t) { let n = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : (0, x.ky)(16); super(), l._A ? (this.agentIdentifier = n, this.sharedAggregator = new m({ agentIdentifier: this.agentIdentifier }), this.features = {}, (0, _.h5)(n, this), this.desiredFeatures = new Set(t.features || []), this.desiredFeatures.add(p), (0, s.j)(this, t, t.loaderType || "agent"), this.run()) : (0, e.Z)("Failed to initial the agent. Could not determine the runtime environment.") } get config() { return { info: (0, r.C5)(this.agentIdentifier), init: (0, r.P_)(this.agentIdentifier), loader_config: (0, r.DL)(this.agentIdentifier), runtime: (0, r.OP)(this.agentIdentifier) } } run() { try { const t = o(this.agentIdentifier), r = [...this.desiredFeatures]; r.sort(((e, t) => n.p[e.featureName] - n.p[t.featureName])), r.forEach((r => { if (t[r.featureName] || r.featureName === n.D.pageViewEvent) { const i = function (e) { switch (e) { case n.D.ajax: return [n.D.jserrors]; case n.D.sessionTrace: return [n.D.ajax, n.D.pageViewEvent]; case n.D.sessionReplay: return [n.D.sessionTrace]; case n.D.pageViewTiming: return [n.D.pageViewEvent]; default: return [] } }(r.featureName); i.every((e => t[e])) || (0, e.Z)("".concat(r.featureName, " is enabled but one or more dependent features has been disabled (").concat((0, D.P)(i), "). This may cause unintended consequences or missing data...")), this.features[r.featureName] = new r(this.agentIdentifier, this.sharedAggregator) } })) } catch (t) { (0, e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -", t); for (const e in this.features) this.features[e].abortHandler?.(); const n = (0, _.fP)(); return delete n.initializedAgents[this.agentIdentifier]?.api, delete n.initializedAgents[this.agentIdentifier]?.features, delete this.sharedAggregator, n.ee?.abort(), delete n.ee?.get(this.agentIdentifier), !1 } } addToTrace(t) { (0, e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.") } setCurrentRouteName(t) { (0, e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.") } interaction() { (0, e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.") } }({ features: [p, S, C], loaderType: "lite" }) })() })();</script>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, maximum-scale=5">
+  <meta name="copyright" content="2023 Galadari Printing and Publishing LLC. All rights reserved.">
+  <meta name="distribution" content="global">
+  <meta name="twitter:site" content="@khaleejtimes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" content="https://www.khaleejtimes.com">
+  <meta property="fb:pages" content="211983032863">
+  <meta property="og:site_name" content="Khaleej Times">
+  <meta property="og:locale" content="en">
+  <meta property="fb:app_id" content="103101790033337">
+  <meta name="robots" content="index, follow, noarchive, max-image-preview:large">
+  <title>Lions, snow and a 100-year-old chief: Meet Dr Sasa Bozic who lived with 11 tribes in 11 countries this year -
+    News | Khaleej Times</title>
+
+  <link rel="preconnect" href="https://cdn.ampproject.org" crossorigin="">
+  <link rel="dns-prefetch" href="https://cdn.ampproject.org">
+  <link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin="">
+  <link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net">
+  <link rel="preconnect" href="https://www.googletagservices.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://www.googletagservices.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://tpc.googlesyndication.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://tpc.googlesyndication.com">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+  <link rel="preconnect" href="https://rr2---sn-xupn5a5u5x-4wgey.googlevideo.com/" crossorigin="">
+  <link rel="dns-prefetch" href="https://rr2---sn-xupn5a5u5x-4wgey.googlevideo.com/">
+
+  <link rel="preconnect" href="https://cdn.taboola.com/" crossorigin="">
+  <link rel="dns-prefetch" href="https://cdn.taboola.com/">
+  <link rel="preconnect" href="https://images.taboola.com/" crossorigin="">
+  <link rel="dns-prefetch" href="https://images.taboola.com/">
+  <link rel="preconnect" href="https://trc.taboola.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://trc.taboola.com">
+  <link rel="preconnect" href="https://vidstat.taboola.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://vidstat.taboola.com">
+  <link rel="preconnect" href="https://imasdk.googleapis.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://imasdk.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="./index.htm" crossorigin="">
+  <link rel="dns-prefetch" href="./index.htm">
+  <link rel="preconnect" href="https://tags.tiqcdn.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://tags.tiqcdn.com">
+  <link rel="preconnect" href="https://a.teads.tv" crossorigin="">
+  <link rel="dns-prefetch" href="https://a.teads.tv">
+  <link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin="">
+  <link rel="dns-prefetch" href="https://c.amazon-adsystem.com">
+
+  <meta property="og:title" content="Dubai: Meet the woman who lived with 11 tribes in 11 countries">
+  <meta property="twitter:title" content="Dubai: Meet the woman who lived with 11 tribes in 11 countries">
+  <meta name="description"
+    content="Eleven countries and 11 tribes — one living along with lions in the wild jungles of Africa. This is how Dr Sasa Bozic spent 365 days recently while searchi.. ">
+  <meta property="og:description"
+    content="Eleven countries and 11 tribes — one living along with lions in the wild jungles of Africa. This is how Dr Sasa Bozic spent 365 days recently while searchi.. ">
+  <meta property="twitter:description"
+    content="Eleven countries and 11 tribes — one living along with lions in the wild jungles of Africa. This is how Dr Sasa Bozic spent 365 days recently while searchi.. ">
+  <meta name="news_keywords" content="cop 28, tribes, sasa bozic, slovenia, sustainability, healthy living, lions,">
+  <meta property="og:url"
+    content="https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th">
+  <meta name="twitter:url"
+    content="https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th">
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Khaleej Times">
+  <meta property="og:image"
+    content="https://image.khaleejtimes.com?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=1200&height=675&x=1.0E-5&y=0.413.jpg">
+  <meta name="twitter:image"
+    content="https://image.khaleejtimes.com?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=1200&amp;height=675&amp;x=1.0E-5&amp;y=0.413">
+  <meta name="author" content="Waheed Abbas">
+  <link rel="canonical"
+    href="lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th.html">
+  <link rel="alternate" hreflang="en"
+    href="lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th.html">
+  <link rel="amphtml"
+    href="lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th-1.html?amp=1">
+
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/bootstrap/bootstrap.min.css">
+  <!-- Added 1-22-2021, Fonts Stag and Lyon -->
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/fonts.css">
+  <!-- Added 1-22-2021, Fonts Stag and Lyon -->
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/style-2-18-2021.css?ver=3.0.1.3">
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/new-home-layout.css?ver=3.0.1.2">
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/compressed-home-layout.css?ver=1.0.0.3">
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/style-2-18-2021-custom.css?ver=3.0.0.2">
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/fa/all.min.css">
+  <!-- <script async  src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/scripts/xdLocalStorage.js"></script> -->
+  <!-- <script async  src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/scripts/services/xd-utils.js"></script> -->
+  <!-- <script async  src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/scripts/services/device.js"></script> -->
+  <script src="./wp-content/themes/ktd-theme/assets/js/prayer_script.js"></script>
+  <!-- <script src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/jquery-3.5.1.min.js"></script> -->
+  <script src="./wp-content/themes/ktd-theme/assets/js/jquery-3.6.0.min.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async="" defer=""></script>
+
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/article-compress.css?ver=1.0.6"
+    type="text/css">
+
+
+  <script type="text/JavaScript" src="./infy/acs/account/3635138d8e594c2c1be5bc1f505e5b30/js/media_bu/odc.js"></script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function () {
+      var match = /_ga=(GA1\.2\.\d+\.\d+)/.exec(window.document.cookie);
+      var googleid = match ? match[1] : null;
+      var utag_data = {
+        "prod_event_name": "Visitor Profile Matching",
+        "googlepid": googleid,
+        "facebookid": /_fbp=(fb\.1\.\d+\.\d+)/.exec(window.document.cookie)[1],
+        "tealiumvisitorid": /(v_id:(\w+))/.exec(window.document.cookie)[2]
+      };
+      console.log(utag_data);
+      ORA.view({
+        "config": {
+          "applyMutations": true,
+          "sendSessionInfo": true
+        },
+        "data": utag_data
+      });
+    });
+  </script>
+
+  <script>
+    var method = "mouseenter";
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      method = "click";
+    }
+    //var h = 0;
+    var val = 0;
+    jQuery(document).ready(function () {
+      jQuery('.click').on('' + method + '', function () {
+        if (jQuery('.pn-ProductNav_Contents ul#nav').hasClass('show')) {
+          jQuery('.pn-ProductNav_Contents ul#nav').removeClass('show');
+          jQuery('.pn-ProductNav_Contents ul#nav li.menu-item').removeClass('drop')
+          return;
+        }
+        val = -6;
+        jQuery('.pn-ProductNav_Contents ul#nav li.menu-item').each(function () {
+          var of = jQuery(this).offset().top - jQuery('#nav').offset().top;
+
+          if (of > 20) {
+            jQuery(this).addClass('drop');
+            var menu_height = jQuery(this).height() + 1;
+            jQuery(this).css('top', 'calc(100% + ' + val + 'px)');
+            val += menu_height;
+          }
+          jQuery('.pn-ProductNav_Contents ul#nav').addClass('show');
+        });
+      });
+
+      jQuery('.pn-ProductNav_Contents').on('mouseleave', function () {
+        if (jQuery('.pn-ProductNav_Contents ul#nav').hasClass('show')) {
+          jQuery('.pn-ProductNav_Contents ul#nav').removeClass('show');
+          jQuery('.pn-ProductNav_Contents ul#nav li.menu-item').removeClass('drop')
+          return;
+        }
+      })
+
+    });
+  </script>
+
+
+  <!-- <script type='text/javascript' id="dota_js" src='https://dns.devnagri.com/dota.js'></script>
+<script id="dota_init">
+    var devnagri = Devnagri.initializeTranslation({
+      apiKey: "devnagri_e69f0cae0f6f11ee99e1023671beae38"
+    });
+</script> -->
+  <!-- Netcore START -->
+  <script src='./smartechclient.js'></script>
+  <script>
+    smartech('create', 'ADGMOT35CHFLVDHBJNIG50K96A9QE9OFJ0MFRRECSBJVVNO5PTBG');
+    smartech('register', 'cdf05e30364b953ee8f1b09e48d0473e');
+    smartech('identify', '');
+    smartech('dispatch', 'page browse', {});
+  </script>
+  <!-- Netcore END -->
+
+
+
+
+
+
+  <script>
+    // setPageType Example
+    window.monetateQ = window.monetateQ || [];
+    window.monetateQ.push([
+      "setPageType",
+      "article"
+    ],
+      "addProductDetails", [{
+        productId: "pidString",
+        sku: "b5b24cbe-6e4e-4613-8f81-43ced5570d6d"
+      }],
+      "addCategories", ["COP 28", "UAE"]
+    );
+
+    window.monetateQ.push([
+      "trackData"
+    ]);
+
+
+  </script>
+
+
+  <script>
+    const getCookieValue = (name) => (
+      document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || ''
+    )
+
+    /*
+      if(getCookieValue('user_sessions')%2==0)
+      {    
+      document.cookie = "user_sessions=1;path=/";	
+    	
+      }
+      else
+      {
+        var valuez=getCookieValue('user_sessions');
+        if(!valuez)
+        {		
+        valuez=0;
+        }
+        value=Number(valuez)+1;
+        document.cookie = "user_sessions="+ value+";path=/";
+      	
+      }
+    */
+
+    jQuery.noConflict();
+    jQuery(window).on('load', function () {
+      var iframe = jQuery("iframe");
+      console.log(iframe.contents());
+      /* use simple click */
+      iframe.contents().find("body").click(function (e) {
+        var urlz = jQuery(this).contents().find("a").prop('href');
+        jQuery.ajax({
+          url: "https://api.khaleejtimes.com/home/decode_url",
+          type: "POST",
+          async: false,
+          crossDomain: true,
+          data: { "url": urlz },
+          dataType: "jsonp",
+          jsonp: "jsoncallback",
+          success: function (result) {
+            utag.link({
+              "ad_platform": "AdManager",//Required example: AdManager
+              "event_action": "addclick",       //Required
+              "event_category": "Paid Ad Click",  //Required example premium
+              "event_label": "Google",     //Required example google, facebook   
+              "tealium_event": "ad_click",        //Required
+              "ad_click_short": "" + result.actual_url_2nd + "",
+              "ad_click_full": "" + result.actual_url + "",
+              "original_ad_link": "" + result.clicked_url + ""
+            });
+          },
+          error: function (xhr, status, error, result) {
+            // alert(status);					
+          }
+        });
+      });
+
+
+      jQuery("a").click(function () {
+        var linkz = jQuery(this).attr("href");
+        if (linkz.indexOf("adclick.g") >= 0) {
+          jQuery.ajax({
+            url: "https://api.khaleejtimes.com/home/decode_url",
+            type: "POST",
+            async: false,
+            crossDomain: true,
+            data: { "url": linkz },
+            dataType: "jsonp",
+            jsonp: "jsoncallback",
+            success: function (result) {
+              utag.link({
+                "ad_platform": "AdManager",//Required example: AdManager
+                "event_action": "addclick",       //Required
+                "event_category": "Paid Ad Click",  //Required example premium
+                "event_label": "Google",     //Required example google, facebook   
+                "tealium_event": "ad_click",        //Required
+                "ad_click_short": "" + result.actual_url_2nd + "",
+                "ad_click_full": "" + result.actual_url + "",
+                "original_ad_link": "" + result.clicked_url + ""
+              });
+            },
+            error: function (xhr, status, error, result) {
+              // alert(status);					
+            }
+          });
+        }
+      });
+    });
+
+
+  </script>
+
+  <style>
+    @-webkit-keyframes spin {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+
+      to {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loader {
+      display: none;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.7);
+      z-index: 1000;
+    }
+
+    .loader::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 48%;
+      top: 40%;
+      width: 40px;
+      height: 40px;
+      border-style: solid;
+      border-color: black;
+      border-top-color: transparent;
+      border-width: 4px;
+      border-radius: 50%;
+      -webkit-animation: spin .8s linear infinite;
+      animation: spin .8s linear infinite;
+    }
+
+    .movie-language {
+      display: block !important;
+    }
+  </style>
+
+
+
+  <link rel="stylesheet" href="./wp-content/themes/ktd-theme/assets/css/swiper-bundle.min.css">
+
+  <!-- ANDBEYOND ABM Headerbidding Section START -->
+  <script async="" defer="" src="./prodprebidheader-107957.js"></script>
+  <!-- ANDBEYOND ABM Headerbidding Section End -->
+  <script async="" defer="" src="./tag/js/f.txt"></script>
+  <script>
+    // adGroup: article
+    window.googletag = window.googletag || { cmd: [] };
+
+    var breadcrumbsection = "";
+    var breadcrumbsubsection = "COP 28";
+    var articleuuid = "b5b24cbe-6e4e-4613-8f81-43ced5570d6d";
+    var init = 0;
+
+    var d_session = new Date();
+    d_session.setTime(d_session.getTime() + (1 * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d_session.toGMTString();
+    var valuez = getCookieValue('user_sessions');
+    if (!valuez) {
+      valuez = 0;
+    }
+    value = Number(valuez) + 1;
+    document.cookie = "user_sessions=" + value + ";" + expires + ";path=/";
+
+
+    googletag.cmd.push(function () {
+
+      var mappingMobLeadfullads = googletag.sizeMapping().
+        addSize([1024, 0], [970, 250]). //desktop
+        addSize([768, 0], [320, 100]). //tablet
+        addSize([567, 0], [320, 100]). //smartphone
+        addSize([0, 0], [320, 100]). //other
+        build();
+
+      var mappingMPUcolads = googletag.sizeMapping().
+        addSize([1024, 0], [300, 250]). //desktop
+        addSize([768, 0], [300, 250]). //tablet
+        addSize([567, 0], [300, 250]). //smartphone
+        addSize([0, 0], [300, 250]). //other
+        build();
+
+      googletag.pubads().setTargeting('KT_SectionName', [breadcrumbsection]);
+      googletag.pubads().setTargeting('KT_SubSectionName', [breadcrumbsubsection]);
+      googletag.pubads().setTargeting('KT_ArtTarget', [articleuuid]);
+      googletag.pubads().setPublisherProvidedId(utag_data.tealium_visitor_id);
+
+      googletag.defineSlot('/78059622/Responsive-Article-Leaderboard', [[970, 250], [320, 100]], 'div-gpt-ad-1613480627440-0').defineSizeMapping(mappingMobLeadfullads).addService(googletag.pubads());
+      googletag.defineSlot('/78059622/Responsive-Article-Leaderboard-footer', [[970, 250], [320, 100]], 'div-gpt-ad-1623646234024-0').defineSizeMapping(mappingMobLeadfullads).addService(googletag.pubads());
+
+      googletag.defineSlot('/78059622/Responsive-Article-MPU-1', [300, 250], 'div-gpt-ad-1613481060449-0').defineSizeMapping(mappingMPUcolads).addService(googletag.pubads());
+      googletag.defineSlot('/78059622/Responsive-Article-MPU-2', [300, 250], 'div-gpt-ad-1613481175484-0').defineSizeMapping(mappingMPUcolads).addService(googletag.pubads());
+      googletag.defineSlot('/78059622/Article-Skyscraper-Right', [120, 600], 'div-gpt-ad-1699245123977-0').addService(googletag.pubads());
+      googletag.defineSlot('/78059622/Article-Skyscraper-Left', [120, 600], 'div-gpt-ad-1699245224511-0').addService(googletag.pubads());
+
+
+      if (getCookieValue('user_sessions') == 1 || getCookieValue('user_sessions') == 5) {
+        init = 1;
+        googletag.defineSlot('/78059622/Responsive-Article-1x1', [1, 1], 'div-gpt-ad-1613625644855-0').addService(googletag.pubads());
+        googletag.defineSlot('/78059622/Responsive-Desktop-Expandable-1x1', [1, 1], 'div-gpt-ad-1624862944429-0').addService(googletag.pubads());
+      }
+
+      googletag.defineSlot('/78059622/Responsive-Article-2', [1, 1], 'div-gpt-ad-1636113966289-0').addService(googletag.pubads());
+      googletag.defineSlot('/78059622/Responsive-Article-1x1-3', [1, 1], 'div-gpt-ad-1637151091152-0').addService(googletag.pubads());
+      googletag.defineSlot('/78059622/Responsive-InfiniteArticle-1x1', [1, 1], 'div-gpt-ad-1644479678407-0').addService(googletag.pubads());
+
+      //googletag.defineSlot('/78059622/Article-Ear-Pannel-Left', [200,90], 'div-gpt-ad-1652857412793-0').addService(googletag.pubads());
+      //googletag.defineSlot('/78059622/Article-Ear-Pannel-Right', [200,90], 'div-gpt-ad-1652857619498-0').addService(googletag.pubads());
+      ear_activate = 0
+
+      // googleInterstitialSlot = googletag.defineOutOfPageSlot('/78059622/Google-Interstitial',googletag.enums.OutOfPageFormat.INTERSTITIAL).addService(googletag.pubads());		
+
+      /*
+        googletag.pubads().enableLazyLoad({
+        // Fetch slots within 0 viewports.
+        fetchMarginPercent: 0,
+        // Render slots within 0.
+        renderMarginPercent: 0,
+        // Double the above values on mobile, where viewports are smaller
+        // and users tend to scroll faster.
+        mobileScaling: 2.0
+      });
+      */
+
+      googletag.pubads().enableSingleRequest();
+      googletag.pubads().disableInitialLoad();
+      googletag.pubads().collapseEmptyDivs();
+      googletag.enableServices();
+      googletag.pubads().refresh();
+    });
+  </script>
+  <!-- Adgebra header code starts here -->
+  <!-- COP 28 ,  -->
+  <!-- afp header code starts here -->
+
+  <!-- afp header code ends here -->
+  <!-- Adgebra header code ends here -->
+
+
+
+
+  <!--
+    Replace with unblocked loader for testing
+<script type='text/javascript' src='https://loader-cdn.azureedge.net/prod/khaleejtimes/loader.min.js?ver=20230321' id='engage-loader-js'></script>
+-->
+  <script type='text/javascript' src='./wp-content/themes/ktd-theme/assets/js/jquery-3.6.0.min.js'></script>
+  <script type='text/javascript' src='./prod/khaleejtimes/loader.min.js?ver=20230321' id='engage-loader-js'></script>
+  <script type='text/javascript' src='./wp-content/themes/ktd-theme/assets/js/engage_kt_prod_trg.js?ver=20231023001'
+    id='engage-js'></script>
+  <script type="application/ld+json">
+    {		
+	    
+	 
+			"@context": "https://schema.org",
+			"@type": "NewsArticle",
+			"inLanguage": "en",
+			"mainEntityOfPage":{
+			  "@type":"WebPage",
+			  "@id":"https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th"
+			},
+			"name": "Lions, snow and a 100-year-old chief: Meet Dr Sasa Bozic who lived with 11 tribes in 11 countries this year - News | Khaleej Times",
+			"description": "The Slovenian national’s journey is being showcased in Expo City Dubai at the COP28 exhibition",
+			"headline": "Lions, snow and a 100-year-old chief: Meet Dr Sasa Bozic who lived with 11 tribes in 11 countries this year - News | Khaleej Times",
+			"articleSection" : "COP 28",
+						  "keywords": "cop 28, tribes, sasa bozic, slovenia, sustainability, healthy living, lions,",
+						"thumbnailUrl": "https://image.khaleejtimes.com?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=1200&height=675&x=1.0E-5&y=0.413",
+			"image": {
+			  "@type": "ImageObject",
+			  "url": "https://image.khaleejtimes.com?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=1200&height=675&x=1.0E-5&y=0.413",
+			  "width": 780,
+			  "height": 435
+			},
+			"datePublished": "2023-12-05T16:18:21+04:00",
+			"dateModified": "2023-12-05T21:31:29+04:00",
+			"author": [			
+			{
+			"@type": "Person",   
+			"name": "Waheed Abbas",	
+			"URL": "https://www.khaleejtimes.com/waheed-abbas"			
+			}									
+			],
+			        "publisher": {
+          "@type": "Organization",
+          "name": "Khaleej Times",
+          "url": "https://www.khaleejtimes.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://static.khaleejtimes.com/wp-content/uploads/sites/2/2021/10/12171006/khaleej-times-logo.png",
+            "width": 200
+          }
+        },
+        "copyrightHolder": {
+          "type": "Organization",
+          "name": "Galadari Printing and Publishing LLC"
+        },
+        "sameAs" : [
+          "https://twitter.com/khaleejtimes",
+          "https://www.facebook.com/khaleejtimes",
+          "https://www.linkedin.com/company/khaleejtimes",
+          "https://www.instagram.com/khaleejtimes/",
+          "https://www.youtube.com/c/khaleejtimes",
+          "https://en.wikipedia.org/wiki/Khaleej_Times"
+        ]	  }
+  </script>
+
+</head>
+
+<body class="article-template-default single single-article postid-799867" data-device="desktop">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var utag_data = {
+      "article_authors": "Waheed Abbas",
+      "article_id": "b5b24cbe-6e4e-4613-8f81-43ced5570d6d",
+      "article_publish_date": "2023-12-05T16:18:21Z",
+      "article_title": "Lions, snow and a 100-year-old chief: Meet Dr Sasa Bozic who lived with 11 tribes in 11 countries this year - News | Khaleej Times",
+      "article_type": "ARTICLE",
+      "event_type": "page_view",
+      "page_category": "UAE",
+      "page_currency_code": "AED",
+      "page_lang": "English",
+      "page_section": "UAE",
+      "chartbeat_section": ["COP 28", "UAE"],
+      "page_type": "article page",
+      "tealium_event": "article_view",
+      "user_application": "desktop"
+    };
+
+    //Netcore smartech script
+  </script>
+
+
+  <script>
+    function gallerySlideEvent(slidenr) {
+      utag.link({
+        article_title: "Lions, snow and a 100-year-old chief: Meet Dr Sasa Bozic who lived with 11 tribes in 11 countries this year - News | Khaleej Times",
+        event_type: "page_view",
+        is_article_premium: "0",
+        page_country: "eg",
+        page_currency_code: "AED",
+        page_lang: "English",
+        page_type: "page",
+        photo_slide: slidenr,
+        tealium_event: "photo_slide",
+        user_application: "desktop",
+      });
+    }
+  </script>
+  <script type="text/javascript">
+    (function (a, b, c, d) {
+      a = 'https://tags.tiqcdn.com/utag/khaleejtimes/khaleejtimes/prod/utag.js';
+      b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true;
+      a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a);
+    })();
+  </script>
+
+  <!-- /78059622/Responsive-Article-1x1 -->
+  <div id='div-gpt-ad-1613625644855-0' style='width: 1px; height: 1px;'>
+    <script>
+      if (init == 1) {
+        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1613625644855-0'); });
+      }
+    </script>
+  </div>
+
+  <!-- /78059622/Responsive-Article-2 -->
+  <div id='div-gpt-ad-1636113966289-0' style='width: 1px; height: 1px;'>
+    <script>
+      googletag.cmd.push(function () { googletag.display('div-gpt-ad-1636113966289-0'); });
+    </script>
+  </div>
+
+  <!-- /78059622/Responsive-Article-1x1-3 -->
+  <div id='div-gpt-ad-1637151091152-0' style='width: 1px; height: 1px;'>
+    <script>
+      googletag.cmd.push(function () { googletag.display('div-gpt-ad-1637151091152-0'); });
+    </script>
+  </div>
+
+
+
+  <!-- /78059622/Responsive-Desktop-Expandable-1x1 -->
+  <div id='div-gpt-ad-1624862944429-0' style="height:0px">
+    <script>
+      if (init == 1) {
+        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1624862944429-0'); });
+      }
+    </script>
+  </div>
+  <!-- /78059622/Responsive-Anchor-320x50 -->
+  <!-- <div id='div-gpt-ad-1641368885970-0' style='min-width: 300px; min-height: 50px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1641368885970-0'); });
+  </script>
+</div>
+-->
+
+
+
+
+  <div class="wrapper test_nasweef_homepage">
+
+    <!--  <div class="app-head-btn-nf-row d-flex align-items-center justify-content-center fixedsticky">
+    <div class="app-head-txt-nf2">Enjoy our faster App experience</div>
+    <div class="app-head-btn-nf2"><a href="https://onelink.to/yr8uf7">Open</a></div></div>
+	-->
+
+
+
+  </div>
+
+
+
+  <header id="header__scroll" class="primary-header mob-mb-nf">
+    <!-- <div class="sticky-header-wrap sticky-div"> -->
+    <div class="container">
+
+      <div class="row search-burmenu-bar-nf">
+        <div class="col-lg-12 d-flex justify-content-end">
+          <div class="header-right-column">
+            <ul class="header-right-icons">
+
+              <li style="display:none" id="MG2login" data-mg2-action="login"><a class="blink-bg-sign-in" href="#">Sign
+                  In</a></li>
+              <li data-mg2-action="hideloggedout" style="display: none;">
+
+                <div class="dropdown">
+                  <button type="button" onclick="engageDropdownHandler()"
+                    class="dropbtn dropdown-toggle auth0_user"><span id="MG2UserName"
+                      class="auth0_user"></span></button>
+                  <div id="engageDropdown" class="dropdown-content">
+                    <!-- <a href="https://myaccount.khaleejtimes.com/kt/myprofile" id="MG2MyAccount" target="_blank">My Account</a> 
+                            <a href="https://subscriptions.khaleejtimes.com/" target="_blank">Subscriptions</a>-->
+                    <a href="https://www.khaleejtimes.com/mykt">My KT</a>
+                    <a href="https://www.khaleejtimes.com/trading">Trading</a>
+                    <a href="https://www.khaleejtimes.com/contact-us">Contact Us</a>
+                    <a href="https://www.khaleejtimes.com/privacy-policy">Privacy Policy</a>
+                    <a href="#" id="MG2logout" data-mg2-action="logout">Sign Out</a>
+                  </div>
+                </div>
+
+              </li>
+
+
+              <li class="header-search"><span><i class="fas fa-search" data-toggle="modal"
+                    data-target="#searchModal"></i></span></li>
+              <li class="header-menu-icon pr-0">
+                <!-- <a href="javascript:void(0);"><span class="btn-open"></span></a> -->
+                <div class="hamburger_menu_nf">
+                  <span class="btn-open"><i class="fas fa-bars"></i></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-row justify-content-lg-between">
+        <!-- Logo + Prayer Timing Start -->
+        <div id="logo" class="mx-lg-auto col-auto col-lg-6 col-md-12 flex-column order-lg-2 px-0">
+
+          <a href="/" class="standard-logo"><img
+              src="./wp-content/themes/ktd-theme/assets/images/khaleej-times-logo.svg" width="275" height="49"
+              alt="khaleejtimes"></a>
+
+          <div class="container">
+
+            <div class="row">
+              <div class="col-lg-12 header-date-count-next-pan justify-content-center d-flex for-mobile-device">
+
+                <div class="calendar-lb-new">
+                  <div class="header-left-column calendar-container">
+                    <p class="calendar">Tue, Dec 05, 2023 | Jumada Al-Uola 22, 1445</p>
+                  </div>
+                </div>
+
+                <div class="counter-lb-new">
+                  <div class="header-counter-nf">
+                    <a href="/prayer-time-uae" target="_blank">
+                      <img src="./wp-content/themes/ktd-theme/assets/images/masjid-small-nf.svg"
+                        class="masjid-header-nf" alt="prayer time in uae" width="24" height="28">
+                      <img src="./wp-content/themes/ktd-theme/assets/images/masjid-small-hover-nf.svg"
+                        class="masjid-header-nf-hover" alt="prayer time in uae" width="24" height="28">
+                      <span class="prayertime-header timer counter proxima-bold">
+                        <span class="number hour e-m-hours" id="pray_time_js_H">00</span>:<span
+                          class="number minute e-m-minutes" id="pray_time_js_M">00</span>:<span
+                          class="number second e-m-seconds" id="pray_time_js_S">00</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="prayer-lb-new">
+                  <div class="header-nxt-prayer-nf">
+                    <a href="/prayer-time-uae" target="_blank">
+                      <span id="pray_time_js"></span>
+                    </a>
+                  </div>
+                </div>
+
+
+                <script>
+                  var NSC_pt_cy = (new Date).getFullYear();
+                  var NSC_pt_cm = (new Date).getMonth();
+                  var NSC_pt_cd = (new Date).getDate();
+                  var NSC_pt_cs = (new Date).getSeconds();
+                  var NCS_fajar_time = new Date(NSC_pt_cy, (NSC_pt_cm + 1), NSC_pt_cd, "05", "28", NSC_pt_cs); //24 Hour Based
+                  var NCS_duhar_time = new Date(NSC_pt_cy, (NSC_pt_cm + 1), NSC_pt_cd, "12", "13", NSC_pt_cs); //24 Hour Based
+                  var NCS_asr_time = new Date(NSC_pt_cy, (NSC_pt_cm + 1), NSC_pt_cd, "15", "10", NSC_pt_cs); //24 Hour Based
+                  var NCS_maghrib_time = new Date(NSC_pt_cy, (NSC_pt_cm + 1), NSC_pt_cd, "17", "33", NSC_pt_cs); //24 Hour Based
+                  var NCS_isha_time = new Date(NSC_pt_cy, (NSC_pt_cm + 1), NSC_pt_cd, "18", "51", NSC_pt_cs); //24 Hour Based
+
+                  RunClientPrayerTimes(1);
+                </script>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo + Prayer Timing End -->
+
+        <div
+          class="col-auto col-lg-3 board-col-xs-12 board-col-sm-12 board-col-md-3 board-col-lg-3 col-md-3 last-update-time order-lg-1 d-md-flex flex-md-column px-0">
+          <div class="row no-gutters">
+            <div class="col-12">
+              <div class="header-left-column">
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="header-misc col-auto col-lg-3 board-col-xs-12 board-col-sm-12 board-col-md-3 board-col-lg-3 col-md-3 order-lg-3 justify-content-lg-end justify-content-md-end flex-md-column ml-0 px-0 right-earpanel">
+          <div class="row no-gutters">
+            <div class="col-12">
+
+              <div class="header-right-column">
+                <!-- <div class="header-right-column weather-container">
+              <p class="weather">Dubai <i class="fas fa-cloud-sun"></i> 20&deg;C</p>
+            </div>-->
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mega Nav Start -->
+    <div class="nav-overlay-nf">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mega-nav-column-line">
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav31209-UAE" aria-expanded="false"
+                  aria-controls="collapse-mega-nav31209"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/uae">UAE</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav31209-UAE">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="https://www.khaleejtimes.com/uae/local-plus">Local Plus</a></li>
+                  <li><a href="/uae/crime-and-courts">Crime</a></li>
+                  <li><a href="/uae/legal-view">Legal</a></li>
+                  <li><a href="/uae/education">Education</a></li>
+                  <li><a href="/uae/expo-city-dubai">Expo City Dubai</a></li>
+                  <li><a href="/uae/government">Government</a></li>
+                  <li><a href="/uae/transport">Transport</a></li>
+                  <li><a href="https://www.khaleejtimes.com/weather">Weather</a></li>
+                  <li><a href="/uae/emergencies">Emergencies</a></li>
+                  <li><a href="/asia/uae/dubai">Dubai</a></li>
+                  <li><a href="/asia/uae/abu-dhabi">Abu Dhabi</a></li>
+                  <li><a href="/asia/uae/sharjah">Sharjah</a></li>
+                  <li><a href="/asia/uae/ajman">Ajman</a></li>
+                  <li><a href="/asia/uae/ras-al-khaimah">Ras Al Khaimah</a></li>
+                  <li><a href="/asia/uae/fujairah">Fujairah</a></li>
+                  <li><a href="/asia/uae/umm-al-quwain">Umm Al Quwain</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav1809-Life-and-Living" aria-expanded="false"
+                  aria-controls="collapse-mega-nav1809"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/guide-to-uae">Life and
+                    Living</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm"
+                id="collapse-mega-nav1809-Life-and-Living">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/life-and-living/visa-and-immigration">Visa &#038; Immigration in UAE</a></li>
+                  <li><a href="https://www.khaleejtimes.com/life-and-living/getting-a-loan">Banking in UAE</a></li>
+                  <li><a href="https://www.khaleejtimes.com/life-and-living/schools-in-the-uae">Schooling in UAE</a>
+                  </li>
+                  <li><a href="https://www.khaleejtimes.com/life-and-living/renting-in-the-uae">Housing in UAE</a></li>
+                  <li><a href="https://www.khaleejtimes.com/ramadan-2023">Ramadan 2023</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav1806-World" aria-expanded="false"
+                  aria-controls="collapse-mega-nav1806"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/world">World</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav1806-World">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/gulf/saudi-arabia">Saudi Arabia</a></li>
+                  <li><a href="/gulf/bahrain">Bahrain</a></li>
+                  <li><a href="/gulf/oman">Oman</a></li>
+                  <li><a href="/gulf/kuwait">Kuwait</a></li>
+                  <li><a href="/gulf/qatar">Qatar</a></li>
+                  <li><a href="/world/mena">MENA</a></li>
+                  <li><a href="https://www.khaleejtimes.com/asia/india">India</a></li>
+                  <li><a href="https://www.khaleejtimes.com/asia/pakistan">Pakistan</a></li>
+                  <li><a href="/asia/philippines">Philippines</a></li>
+                  <li><a href="https://www.khaleejtimes.com/world/americas">Americas</a></li>
+                  <li><a href="https://www.khaleejtimes.com/world/europe">Europe</a></li>
+                  <li><a href="https://www.khaleejtimes.com/world/africa">Africa</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64408-Opinion" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64408"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/opinion">Opinion</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav64408-Opinion">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/opinion/columnists">Columnists</a></li>
+                  <li><a href="/opinion/kt-editorials">Editorial</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav1808-Business" aria-expanded="false"
+                  aria-controls="collapse-mega-nav1808"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/business">Business</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav1808-Business">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="https://www.khaleejtimes.com/business/auto">Auto</a></li>
+                  <li><a href="/business/aviation">Aviation</a></li>
+                  <li><a href="/business/corporate">Corporate</a></li>
+                  <li><a href="/business/cryptocurrency">Cryptocurrency</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business/markets">Markets</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business/economy">Economy</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business/banking-and-finance">Finance</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business/energy">Energy</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business/infrastructure">Infrastructure</a></li>
+                  <li><a href="/business/realty">Realty</a></li>
+                  <li><a href="/business/start-ups">Start-Ups</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business/telecom">Telecom</a></li>
+                  <li><a href="/business/tech">Tech</a></li>
+                  <li><a href="/business/currency-exchange">Currency Exchange</a></li>
+                  <li><a href="https://www.khaleejtimes.com/kt-network">KT-Network</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav1805-Sports" aria-expanded="false"
+                  aria-controls="collapse-mega-nav1805"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/sports">Sports</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav1805-Sports">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="https://www.khaleejtimes.com/cricket-world-cup-2023">ICC World Cup 2023</a></li>
+                  <li><a href="https://www.khaleejtimes.com/sports/cricket">Cricket</a></li>
+                  <li><a href="https://www.khaleejtimes.com/sports/football">Football</a></li>
+                  <li><a href="https://www.khaleejtimes.com/sports/f-1">F1</a></li>
+                  <li><a href="https://www.khaleejtimes.com/sports/golf">Golf</a></li>
+                  <li><a href="https://www.khaleejtimes.com/sports/horse-racing">Horse Racing</a></li>
+                  <li><a href="https://www.khaleejtimes.com/sports/tennis">Tennis</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64415-Entertainment" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64415"></i>
+                <h3 class="mega-nav-left-columns-heading"><a
+                    href="https://www.khaleejtimes.com/entertainment">Entertainment</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm"
+                id="collapse-mega-nav64415-Entertainment">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/entertainment/movies">Movies</a></li>
+                  <li><a href="/entertainment/ott">OTT</a></li>
+                  <li><a href="https://www.khaleejtimes.com/entertainment/music">Music</a></li>
+                  <li><a href="/events">Local Events</a></li>
+                  <li><a href="/entertainment/newsmakers">Newsmakers</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav732706-Dubai-World-Cup" aria-expanded="false"
+                  aria-controls="collapse-mega-nav732706"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/dubai-world-cup">Dubai
+                    World Cup</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm"
+                id="collapse-mega-nav732706-Dubai-World-Cup">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/dubai-world-cup/primer">Primer</a></li>
+                  <li><a href="/dubai-world-cup/flashback">Flashback</a></li>
+                  <li><a href="/dubai-world-cup/columns">Columns</a></li>
+                  <li><a href="/dubai-world-cup/track-notes">Track Notes</a></li>
+                  <li><a href="/dubai-world-cup/big-numbers">Big Numbers</a></li>
+                  <li><a href="/dubai-world-cup/daily-updates">Daily Updates</a></li>
+                  <li><a href="/videos/dubai-world-cup">Videos</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64426-lifestyle" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64426"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/lifestyle">lifestyle</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm"
+                id="collapse-mega-nav64426-lifestyle">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/lifestyle/art-and-culture">Arts &#038; Culture</a></li>
+                  <li><a href="/lifestyle/beauty">Beauty</a></li>
+                  <li><a href="/lifestyle/design">Design</a></li>
+                  <li><a href="/lifestyle/fashion">Fashion</a></li>
+                  <li><a href="/lifestyle/food-and-dining">Food</a></li>
+                  <li><a href="/lifestyle/health-and-fitness">Health</a></li>
+                  <li><a href="/lifestyle/home-and-garden">Home</a></li>
+                  <li><a href="/lifestyle/mental-health">Mental Health</a></li>
+                  <li><a href="/lifestyle/parenting">Parenting</a></li>
+                  <li><a href="/lifestyle/relationships">Relationships</a></li>
+                  <li><a href="/lifestyle/shopping">Shopping</a></li>
+                  <li><a href="/lifestyle/stayhome">StayHome</a></li>
+                  <li><a href="/lifestyle/wellness">Wellness</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64442-Travel" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64442"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://www.khaleejtimes.com/travel">Travel</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav64442-Travel">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/travel/staycations">Staycations</a></li>
+                  <li><a href="/travel/vacations">Vacations</a></li>
+                  <li><a href="/travel/uae-attractions">UAE Attractions</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64606-Reviews" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64606"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="/reviews">Reviews</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav64606-Reviews">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="/reviews/tech-review">Tech Reviews</a></li>
+                  <li><a href="/reviews/motoring-reviews">Motoring Reviews</a></li>
+                  <li><a href="/reviews/movie-reviews">Movie Reviews</a></li>
+                  <li><a href="/reviews/books">Book reviews</a></li>
+                  <li><a href="/reviews/restaurant-review">Restaurant Reviews</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64614-Brands" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64614"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="#">Brands</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm" id="collapse-mega-nav64614-Brands">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="https://www.khaleejtimes.com/entertainment">City Times</a></li>
+                  <li><a href="https://www.khaleejtimes.com/lifestyle">WKND</a></li>
+                  <li><a href="https://www.youngtimes.com/">Young Times</a></li>
+                  <li><a href="https://brb.khaleejtimes.com/">BRB</a></li>
+                  <li><a href="/she">SHE</a></li>
+                  <li><a href="/metrolife">Metrolife</a></li>
+                  <li><a href="https://buzzon.khaleejtimes.com/" target="_blank">Buzzon</a></li>
+                  <li><a href="https://ktgamez.com/" target="_blank">KT Gamez</a></li>
+                  <li><a href="https://www.khaleejtimes.com/business-technology-review">BTR</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav717354-Supplements" aria-expanded="false"
+                  aria-controls="collapse-mega-nav717354"></i>
+                <h3 class="mega-nav-left-columns-heading"><a
+                    href="https://www.khaleejtimes.com/supplements">Supplements</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm"
+                id="collapse-mega-nav717354-Supplements">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/30-11-2023" target="_blank">COP 28 UAE</a>
+                  </li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/29-11-2023" target="_blank">Germany</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/30-10-2023" target="_blank">Turkiye</a></li>
+                  <li><a href="https://ebtr.khaleejtimes.com/" target="_blank">BTR</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/24-08-2023" target="_blank">Back To
+                      School</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/15-08-2023" target="_blank">India
+                      Independence Day</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/14-08-2023" target="_blank">Pakistan
+                      Independence Day</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/24-06-2023" target="_blank">Graduate and
+                      Postgraduate Degree Programmes</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/23-06-2023" target="_blank">Eid-Al-Adha</a>
+                  </li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/16-06-2023" target="_blank">It&#8217;s Summer
+                      Time</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/29-05-2023" target="_blank">Georgia</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/24-05-2023" target="_blank">Leading
+                      Universities</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/26-04-2023" target="_blank">Getex</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/28-03-2023" target="_blank">Higher
+                      Education</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/24-03-2023" target="_blank">Cookbook</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/23-03-2023" target="_blank">Pakistan
+                      Resolution Day</a></li>
+                  <li><a href="https://esupplements.khaleejtimes.com/31902/28-02-2023" target="_blank">Business
+                      Management</a></li>
+                  <li><a href="https://www.khaleejtimes.com/kt-engage">KT Engage</a></li>
+                  <li><a href="https://emetrolife.khaleejtimes.com/" target="_blank">Metrolife</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mega-nav-left-columns-wrap margin-btm-0">
+              <div class="mega-nav-left-columns-headingwrap">
+                <i class="fas fa-chevron-down mega-nav-down-arrow hidden visible-xs" data-toggle="collapse"
+                  data-target="#collapse-mega-nav64637-KT-Events" aria-expanded="false"
+                  aria-controls="collapse-mega-nav64637"></i>
+                <h3 class="mega-nav-left-columns-heading"><a href="https://khaleejtimesevents.com/" target="_blank">KT
+                    Events</a>
+                </h3>
+              </div>
+              <div class="mega-nav-left-columns-listwrap collapse dont-collapse-sm"
+                id="collapse-mega-nav64637-KT-Events">
+                <ul class="mega-nav-left-columns">
+                  <li><a href="https://indianrealestateshow.com/" target="_blank">India Real Estate Show</a></li>
+                  <li><a href="https://futureofinsurancecongress.com/" target="_blank">Future Of Insurance</a></li>
+                  <li><a href="https://ktdesertdrive.com/" target="_blank">KT Desert Drive</a></li>
+                  <li><a href="https://www.ktuniexpo.com/">UniExpo International</a></li>
+                  <li><a href="https://newagefinanceexpo.com/" target="_blank">New Age Finance &#038; Accounting
+                      Summit</a></li>
+                  <li><a href="https://dhf.khaleejtimesevents.com/" target="_blank">Digital Health Forum</a></li>
+                  <li><a href="https://artelligenceforum.com/" target="_blank">Artelligence</a></li>
+                  <li><a href="https://www.ktuniexpo.com/" target="_blank">UniExpo</a></li>
+                  <li><a href="https://digipaysummit.com/" target="_blank">DigiPay</a></li>
+                  <li><a href="https://fosc.khaleejtimesevents.com/" target="_blank">Future of Smart Cities</a></li>
+                  <li><a href="https://www.gif.khaleejtimesevents.com/" target="_blank">Global Investment Forum</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 mega-nav-right-columns-wrap-pdng">
+
+            <div class="mega-nav-right-columns-wrap">
+              <ul class="mega-nav-right-columns-list">
+                <li><a href="https://coupons.khaleejtimes.com/" target="_blank">Coupons</a></li>
+                <li><a href="https://subscriptions.khaleejtimes.com/">Subscriptions</a></li>
+                <li><a href="/life-and-living/uae-holidays">UAE Holidays</a></li>
+                <li><a href="/uae/expo-2020">Expo 2020</a></li>
+                <li><a href="/year-of-the-50th">Year of the 50th</a></li>
+                <li><a href="/offbeat">Offbeat</a></li>
+                <li><a href="/business/tech">Tech</a></li>
+                <li><a href="/motoring">Motoring</a></li>
+                <li><a href="/society-and-community">Community</a></li>
+                <li><a href="/long-reads">Long Reads</a></li>
+                <li><a href="https://esupplements.khaleejtimes.com/">eMagazines</a></li>
+                <li><a href="https://ewknd.khaleejtimes.com/" target="_blank">eWKND</a></li>
+              </ul>
+            </div>
+            <div class="mega-nav-right-columns-wrap">
+              <ul class="mega-nav-right-columns-list">
+                <li><a href="/photos">Photos</a></li>
+                <li><a href="/kt-podcasts">Podcasts</a></li>
+                <li><a href="/videos">Videos</a></li>
+                <li><a href="/gold-forex">Gold/Forex</a></li>
+                <li><a href="/trading">Trading</a></li>
+                <li><a href="/mykt">MyKT</a></li>
+                <li><a href="/prayer-time-uae">Prayer Timings</a></li>
+                <li><a href="/uae-cinema-listing">Cinema Listings</a></li>
+                <li><a href="/weather">Weather</a></li>
+                <li><a href="https://epaper.khaleejtimes.com">E-Paper</a></li>
+                <li><a href="https://buzzon.khaleejtimes.com/">Buzzon</a></li>
+                <li><a href="/inspired-living">Inspired Living</a></li>
+                <li><a href="/uae-latest-news">Latest News</a></li>
+              </ul>
+            </div>
+            <div class="mega-nav-right-columns-wrap">
+              <ul class="mega-nav-right-columns-list">
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/advertise">Advertise With Us</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/sitemap.html">Sitemap</a></li>
+              </ul>
+            </div>
+
+            <div class="meganav-app-wrap">
+              <h3 class="mega-nav-left-columns-heading">KT APPDOWNLOAD</h3>
+              <ul class="meganav-app-lists">
+                <li><a href="https://itunes.apple.com/ae/app/khaleej-times/id909275381?mt=8"><img class="lazyload"
+                      src="./wp-content/themes/ktd-theme/assets/images/apple.svg" alt="apple" width="19" height="23"
+                      loading="lazy"> iPhone | iPad</a> </li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.khaleejtimes&hl=en"><img class="lazyload"
+                      src="./wp-content/themes/ktd-theme/assets/images/android.svg" alt="android" width="19"
+                      height="24" loading="lazy"> Android</a></li>
+                <li><a href="https://appgallery5.huawei.com/#/app/C101150783"><img class="lazyload"
+                      src="./wp-content/themes/ktd-theme/assets/images/huawei.svg" alt="huawei" width="19" height="14"
+                      loading="lazy"> Huawei</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mega Nav Ends -->
+
+    <!-- Top Menu -->
+
+
+
+    <div class="sticky-header-wrap sticky-div">
+      <div class="container-fluid pl-0 pr-0">
+        <div class="header-row secondary-bg justify-content-lg-between">
+          <div class="container">
+            <nav class="secondary-menu">
+              <div class="kt-nav-icon-nf">
+                <a href="/"><img src="./wp-content/themes/ktd-theme/assets/images/kt-icon-head.svg" width="40"
+                    height="24" alt="KT Icon"></a>
+              </div>
+              <div class="pn-ProductNav_Wrapper">
+                <nav id="pnProductNav" class="pn-ProductNav">
+                  <div id="pnProductNavContents" class="pn-ProductNav_Contents">
+                    <ul id="nav">
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/uae"
+                          class="pn-ProductNav_Link ">UAE</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/gold-forex"
+                          class="pn-ProductNav_Link ">Gold/Forex</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/cop-28"
+                          class="pn-ProductNav_Link ">COP 28</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/world"
+                          class="pn-ProductNav_Link ">World</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/business"
+                          class="pn-ProductNav_Link ">Business</a></li>
+
+
+
+                      <li class="menu-item"><a href="/prayer-time-uae" class="pn-ProductNav_Link ">Prayer Timings</a>
+                      </li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/entertainment"
+                          class="pn-ProductNav_Link ">Entertainment</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/lifestyle"
+                          class="pn-ProductNav_Link ">Lifestyle</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/sports"
+                          class="pn-ProductNav_Link ">Sports</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/opinion"
+                          class="pn-ProductNav_Link ">Opinion</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/kt-shows"
+                          class="pn-ProductNav_Link ">KT Shows</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/videos"
+                          class="pn-ProductNav_Link ">Videos</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/supplements"
+                          class="pn-ProductNav_Link ">Supplements</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://khaleejtimesevents.com/" class="pn-ProductNav_Link "
+                          target="_blank">KT Events</a></li>
+
+
+
+                      <li class="menu-item"><a href="https://www.khaleejtimes.com/mykt" class="pn-ProductNav_Link ">My
+                          KT</a></li>
+
+
+                    </ul>
+                    <div class="click">
+                      <i class="fas fa-ellipsis-h"></i>
+                    </div>
+
+                  </div>
+                </nav>
+                <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button" aria-label="Left Button">
+                  <svg class="pn-Advancer_Icon" xmlns="https://www.w3.org/2000/svg" viewbox="0 0 551 1024">
+                    <path
+                      d="M445.44 38.183L-2.53 512l447.97 473.817 85.857-81.173-409.6-433.23v81.172l409.6-433.23L445.44 38.18z">
+                    </path>
+                  </svg>
+                </button>
+                <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button"
+                  aria-label="Right Button">
+                  <svg class="pn-Advancer_Icon" xmlns="https://www.w3.org/2000/svg" viewbox="0 0 551 1024">
+                    <path
+                      d="M105.56 985.817L553.53 512 105.56 38.183l-85.857 81.173 409.6 433.23v-81.172l-409.6 433.23 85.856 81.174z">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Top Menu -->
+  </header>
+
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-12 d-flex justify-content-center d-block fix-billboard-nf">
+      <div class="fix-billboard-nf-inner"> -->
+  <!-- /78059622/Responsive-Article-Leaderboard -->
+  <!-- <div id='div-gpt-ad-1613480627440-0'>
+          <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1613480627440-0'); });
+          </script>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- /78059622/Article-Skyscraper-Left -- start-->
+  <div id='div-gpt-ad-1699245224511-0' class='skyscraper-left-lb'>
+    <script>
+      googletag.cmd.push(function () { googletag.display('div-gpt-ad-1699245224511-0'); });
+    </script>
+  </div>
+  <!-- /78059622/Article-Skyscraper-Left -- end-->
+
+
+
+  <div class="container">
+    <div class="article-container" data-triggerview=""
+      data-url="https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th"
+      viewed="">
+      <div class="row">
+        <div class="col-lg-8 art-lt-cust-nf">
+          <div class="article-wrapper" data-uuid="b5b24cbe-6e4e-4613-8f81-43ced5570d6d">
+            <div class="article-paragraph-wrapper">
+              <ul class="breadcrumbs-nw-nf-lat">
+                <li><a href="/">Home</a></li>
+                <li>/</li>
+
+                <li class="active"><a href="/uae">UAE</a></li>
+                <li>/</li>
+
+                <li class="active"><a href="/cop-28">COP 28</a></li>
+              </ul>
+
+
+
+              <!-- element: headline -->
+              <h1>Lions, snow and a 100-year-old chief: Meet Dr Sasa Bozic who lived with 11 tribes in 11 countries this
+                year</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!-- element: preamble -->
+              <h3 class="preamble-nf">The Slovenian national’s journey is being showcased in Expo City Dubai at the
+                COP28 exhibition</h3>
+
+
+
+              <!-- <hr class="gray-line vuukle-far-nf">
+
+<div class="reading-time">
+  <i>
+    <span class="reading-time__label" data-rt-uuid="b5b24cbe-6e4e-4613-8f81-43ced5570d6d"></span>
+    <span class="reading-time__duration" data-rt-uuid="b5b24cbe-6e4e-4613-8f81-43ced5570d6d"></span>
+    <span class="reading-time__word-count" data-rt-uuid="b5b24cbe-6e4e-4613-8f81-43ced5570d6d"></span>
+  </i>
+</div> -->
+
+
+              <div class="google-news-main-div-lib d-flex justify-content-between">
+
+                <div class="article-top-author-nw-nf-left">
+                  <!-- <a href="#header__scroll"><img src="images/author-pic2.jpg" /></a> images/vuukle-social.jpg-->
+                  by <a href="#header__scroll">
+                    <h3>Waheed Abbas</h3>
+                  </a>
+                  <!--<span>Dubai</span></h3>-->
+                </div>
+
+                <!-- <div class="vuukle-powerbar-B5B24CBE-6E4E-4613-8F81-43CED5570D6D google-news-left-lib"><style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
+.socio {
+    position: relative;
+   /*( left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.socio .socio-child {
+  list-style: none;
+}
+
+.socio .socio-child a {
+  position: relative;
+  width:40px;
+  height:40px;
+  display:block;
+  text-align:center;
+  margin:0 0px;
+  border-radius: 50%;
+  padding: 4px;
+  box-sizing: border-box;
+  text-decoration:none;
+  transition: .5s;
+}
+
+.socio .socio-child a:hover {
+
+  text-decoration:none;
+}
+
+.socio .socio-child a .fab {
+  width: 100%;
+  height:100%;
+  display:block;
+ background:#fff;
+ border:1px solid #ccc;
+  border-radius: 50%;
+  line-height: calc(40px - 10px);
+  font-size:17px;
+  color: #000;
+  transition: .5s;
+}
+
+
+
+
+</style>  
+ <script>
+jQuery(document).ready(function(){
+jQuery(".sharelink").click(function(event){
+	event.preventDefault();
+	 var url = window.location.href;
+	var hiturl=jQuery(this).attr('data-link');	
+	  var link = hiturl + encodeURI(url);
+	 window.open(link,'_blank','toolbar=0,status=0,width=626,height=436');
+});
+});
+</script>
+<div class="socio">
+	<div class="socio-child"><a href="#" data-link="https://api.whatsapp.com/send?text=" class="sharelink"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></div>
+	<div class="socio-child"><a href="#" data-link="https://www.facebook.com/share.php?u=" class="sharelink"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></div>
+	<div class="socio-child"><a href="#" data-link="https://twitter.com/intent/tweet?url=" class="sharelink"><i class="fab fa-x-twitter" aria-hidden="true"><svg viewBox="0 0 24 24" aria-label="Twitter" role="img" style="width:17px; height:17px;"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg> </i></a></div> 
+	<div class="socio-child"><a href="#" data-link="https://www.linkedin.com/shareArticle?mini=true&url=" class="sharelink"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></div>
+	
+</div>      
+ </div>  -->
+
+                <div class="art-top-share-pan-nf d-flex justify-content-end">
+
+                  <div class="google-news-left-lib">
+                    <style>
+                      @import url('./ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
+
+                      .socio {
+                        position: relative;
+                        /*( left: 50%; */
+                        /* transform: translate(-50%, -50%); */
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                      }
+
+                      .socio .socio-child {
+                        list-style: none;
+                      }
+
+                      .socio .socio-child a {
+                        position: relative;
+                        width: 40px;
+                        height: 40px;
+                        display: block;
+                        text-align: center;
+                        margin: 0 0px;
+                        border-radius: 50%;
+                        padding: 4px;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        transition: .5s;
+                      }
+
+                      .socio .socio-child a:hover {
+
+                        text-decoration: none;
+                      }
+
+                      .socio .socio-child a .fab {
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        background: #fff;
+                        border: 1px solid #ccc;
+                        border-radius: 50%;
+                        line-height: calc(40px - 10px);
+                        font-size: 17px;
+                        color: #000;
+                        transition: .5s;
+                      }
+                    </style>
+                    <script>
+                      jQuery(document).ready(function () {
+                        jQuery(".sharelink").click(function (event) {
+                          event.preventDefault();
+                          var url = window.location.href;
+                          var hiturl = jQuery(this).attr('data-link');
+                          var link = hiturl + encodeURI(url);
+                          window.open(link, '_blank', 'toolbar=0,status=0,width=626,height=436');
+                        });
+                      });
+                    </script>
+                    <div class="socio">
+                      <div class="socio-child"><a href="#" data-link="https://api.whatsapp.com/send?text="
+                          class="sharelink"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></div>
+                      <div class="socio-child"><a href="#" data-link="https://www.facebook.com/share.php?u="
+                          class="sharelink"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></div>
+                      <div class="socio-child"><a href="#" data-link="https://twitter.com/intent/tweet?url="
+                          class="sharelink"><i class="fab fa-x-twitter" aria-hidden="true"><svg viewbox="0 0 24 24"
+                              aria-label="Twitter" role="img" style="width:17px; height:17px;">
+                              <g>
+                                <path
+                                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                              </g>
+                            </svg> </i></a></div>
+                      <div class="socio-child"><a href="#"
+                          data-link="https://www.linkedin.com/shareArticle?mini=true&url=" class="sharelink"><i
+                            class="fab fa-linkedin-in" aria-hidden="true"></i></a></div>
+
+                    </div>
+                  </div>
+
+                  <div class="google-news-image-right-lib">
+
+                    <div class="google-news-image-right-lib-new">
+
+                      <ul>
+
+                        <li>Follow us on</li>
+                        <li><a
+                            href="https://news.google.com/publications/CAAqBwgKMLqnnwkwzfVu?hl=en-US&gl=US&ceid=US:en"
+                            target="_blank"><img src="./wp-content/themes/ktd-theme/assets/images/google-news-icon.svg"
+                              alt="google-news"></a></li>
+                        <li><a href="https://www.whatsapp.com/channel/0029Va5dROu3bbUxk7Jh2503" target="_blank"><img
+                              src="./wp-content/themes/ktd-theme/assets/images/whatsapp-icon.svg" alt="whatsapp"></a>
+                        </li>
+                        <li><a href="https://t.me/khaleejtimes" target="_blank"><img
+                              src="./wp-content/themes/ktd-theme/assets/images/telegram-icon.svg" alt="telegram"></a>
+                        </li>
+
+
+                      </ul>
+
+
+
+                    </div>
+
+                    <!-- <a href="https://news.google.com/publications/CAAqBwgKMLqnnwkwzfVu?hl=en-US&gl=US&ceid=US:en" target="_blank"><img src="https://static.khaleejtimes.com/wp-content/uploads/sites/2/2023/07/18134758/follow-us-on-google-news-small.png"></a>-->
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- <hr class="gray-line vuukle-far-nf"> -->
+
+
+
+
+
+            </div>
+
+
+            <div class="article-leftbar-wrap-nf topsty-netcore-0">
+
+
+              <div id="arttopstrywrap" class="article-lt-top-story">
+                <h2>Top Stories</h2>
+
+                <div class="arttopstrywrap-list-dt">
+                  <a
+                    href="https://www.khaleejtimes.com/life-and-living/embracing-the-bright-side-a-guide-on-how-to-cultivate-optimism">
+                    <img
+                      src="./index-1.htm?uuid=82310921-6360-526a-97cc-fc7db7999c04&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.8427&width=1500&height=844&x=1.0E-5&y=0.14232"
+                      alt="">
+                    <h3>Embracing the bright side: A guide on how to cultivate optimism</h3>
+                  </a>
+                </div>
+
+                <div class="arttopstrywrap-list-dt">
+                  <a href="https://www.khaleejtimes.com/travel/the-power-of-solitude-why-you-should-go-on-a-solo-trip">
+                    <img
+                      src="./index-2.htm?uuid=ee38c150-5d16-5aa0-a817-e4d2dc0badba&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.99956&x=0&y=0&width=1500&height=844"
+                      alt="">
+                    <h3>The power of solitude: Why you should go on a solo trip</h3>
+                  </a>
+                </div>
+
+                <div class="arttopstrywrap-list-dt">
+                  <a
+                    href="https://www.khaleejtimes.com/life-and-living/how-to-get-your-kids-to-read-essential-tips-for-parents">
+                    <img
+                      src="./index-3.htm?uuid=c0d11029-2744-51ce-9963-58800b58de7d&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.8427&width=1500&height=844&x=1.0E-5&y=0.11423"
+                      alt="">
+                    <h3>How to get your kids to read: Essential tips for parents</h3>
+                  </a>
+                </div>
+
+
+
+
+
+              </div>
+
+            </div>
+
+            <div class="article-nwsplit-arp-wrap-nf asif-test">
+              <!-- object: image -->
+              <div class="image-wrapper image-wrapper-first">
+                <div class="article-lead-img-pan">
+                  <img class="img-fluid lazyload"
+                    srcset="./index-8.htm 300w?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=300&amp;height=169&amp;x=1.0E-5&amp;y=0.413 300w,./index-9.htm 600w?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=600&amp;height=338&amp;x=1.0E-5&amp;y=0.413 600w,./index-10.htm 900w?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=900&amp;height=506&amp;x=1.0E-5&amp;y=0.413 900w,./index-4.htm 1200w?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=1200&amp;height=675&amp;x=1.0E-5&amp;y=0.413 1200w,./index-11.htm 1500w?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=1500&amp;height=844&amp;x=1.0E-5&amp;y=0.413 1500w"
+                    src="./index-4.htm?uuid=e644d99d-5c1d-5413-946c-3216164e106b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.45&amp;width=1200&amp;height=675&amp;x=1.0E-5&amp;y=0.413"
+                    style="width: 100%; height: auto;" height="1024" width="819" alt="">
+                </div>
+                <div class="article-lead-img-caption">
+
+                </div>
+              </div>
+
+
+
+
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="article-top-author-nw-nf">
+
+                    <div class="article-top-author-nw-nf-right">
+                      <p><span>Published:</span> Tue 5 Dec 2023, 4:18 PM</p>
+                      <p><span>Last updated:</span> Tue 5 Dec 2023, 9:31 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- element: body -->
+              <p>Eleven countries and 11 tribes — one living along with lions in the wild jungles of Africa. This is how
+                Dr Sasa Bozic spent 365 days recently while searching for indigenous wisdom and solutions to sustainable
+                living.</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>The Slovenian national’s eventful journey is being showcased at Expo City Dubai at the COP28 exhibition
+                titled 'One World. One Family', which is part of a social sustainability initiative by Knauf Insulation.
+                In the project — described as the ‘365 Days of Ancient Wisdom for the Well-being of Modern Man’ — Bozic
+                dedicated each month of the year to one tribe, starting in Australia and ending in New Zealand.</p>
+
+
+              <!-- <div style="max-width:300px; margin: 0px auto!important;">
+                                   
+                                </div> -->
+
+
+
+
+
+              <!-- element: body -->
+              <p>She embarked on the journey because she believes that if people are well, happy and healthy, they will
+                take care of the planet and the economy will thrive.</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>“I decided to connect with ancient cultures and ascertain how people used to live, so that I could
+                bring that old wisdom to the present era. I'm basically being a vessel or a bridge between the old and
+                the new,” Bozic told Khaleej Times in an interview on the sidelines of the exhibition at the Slovenia
+                Pavilion.</p>
+
+
+              <!-- googleoff: index -->
+              <div id="adsolut-article"></div>
+              <!-- googleon: index -->
+
+
+
+
+
+              <!-- object: image -->
+              <div class="image-wrapper">
+                <div class="article-lead-img-pan">
+                  <img class="img-fluid lazyload"
+                    srcset="./index-12.htm 300w?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=300&amp;scaleup=0 300w,./index-13.htm 600w?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=600&amp;scaleup=0 600w,./index-14.htm 900w?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=900&amp;scaleup=0 900w,./index-5.htm 1200w?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1200&amp;scaleup=0 1200w,./index-15.htm 1500w?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1500&amp;scaleup=0 1500w"
+                    src="./index-5.htm?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1200&amp;scaleup=0"
+                    style="width: 100%; height: auto;" height="1024" width="1024" alt="">
+
+                </div>
+                <div class="article-lead-img-caption">
+
+                </div>
+              </div>
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>“In a way, I was their representative of a modern man. Doing the project made me rethink my priorities
+                and the fast-paced life to convince myself that it's okay to be patient. It's okay to let things and
+                events take their own course because if it's meant to happen, it will happen. And this is really hard in
+                the modern day.” Interestingly, Bozic says she never fell ill during her stay with the tribes.</p>
+
+
+
+
+
+
+
+              <!-- element: subheadline1 -->
+              <h2>Common values</h2>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>There are three main values that are common to all of the 11 tribes, the Slovenian reports.</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>“The first is that nature is sacred. Because they are so dependent on nature and get everything from
+                it, they worship it. They don't understand pollution and [conversations about] sustainability. The
+                second is living within a community, tribe or family for survival. In the modern era, we are
+                individualised in our big apartments and buildings, and don't even know our neighbours sometimes. We get
+                lonely and out of loneliness comes burnout. Loneliness is closely connected to exhaustion. The third is
+                respecting elders, who are wisdom keepers. So often, we just put them in old age homes... It makes us
+                lose that connection with our roots, culture and our purpose.”</p>
+
+
+
+
+
+
+
+              <!-- object: image -->
+              <div class="image-wrapper">
+                <div class="article-lead-img-pan">
+                  <img class="img-fluid lazyload"
+                    srcset="./index-16.htm 300w?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=300&amp;scaleup=0 300w,./index-17.htm 600w?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=600&amp;scaleup=0 600w,./index-18.htm 900w?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=900&amp;scaleup=0 900w,./index-6.htm 1200w?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1200&amp;scaleup=0 1200w,./index-19.htm 1500w?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1500&amp;scaleup=0 1500w"
+                    src="./index-6.htm?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1200&amp;scaleup=0"
+                    style="width: 100%; height: auto;" height="550" width="550" alt="">
+
+                </div>
+                <div class="article-lead-img-caption">
+
+                </div>
+              </div>
+
+
+
+
+
+
+              <!-- element: subheadline1 -->
+              <h2>Experiences to remember</h2>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>Bozic has several engaging stories to tell of her time with the tribes — such as how she braved a
+                six-hour journey in -30°Celsius and 2-metre-deep snow to reach the Sami community in the Arctic Circle.
+                Or how the Maasai Mara people named her 'joy' in their language, because she always wore a smile.</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>Speaking of her first interaction with the African tribe, Bozic said was assisted by a guy called
+                Joseph who could speak English. All of a sudden, the tribal chief asked her, “Where is your husband?"
+                The Slovenian took her smartphone and made a video call to her husband. “The chief needs to speak to
+                you,” she told him. “I showed the 100-year-old chief my husband... They were wowed [to see him on my
+                phone]. My husband asked the chief to take care of me so that I would not be eaten by lions.”</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>That interaction ended up being no joke. One of the scariest moments Bozic experienced was when they
+                did indeed come face to face with lions during one of her nature walks. “I used to go out for nature
+                walks, accompanied by three elders or warriors of the tribe. One day, the elders suddenly surrounded
+                me." They were facing lions. "They said, 'Don't worry, we got you',” she recalled.</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>Being a pescatarian, one of the most challenging aspects of that stay for Bozic was meal time, because
+                they ate red meat and drink blood. “That was a challenge. Luckily, there were some camps nearby, so I
+                could go and have a meal."</p>
+
+
+
+
+
+
+
+              <!-- element: subheadline1 -->
+              <h2>'We are all the same'</h2>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>In a message to the world, she says, “As human beings, we are all the same. We all bleed blood, we all
+                go to bed when we are tired... Of course, on the surface, we are different. We are from different
+                cultures and religions. But those core three values that I mentioned is what unites us. If we approach
+                each other as human beings with respect to the fact that we are just one family because we are all the
+                same in our DNA, in how we are wired, maybe we would address conflicts or situations differently.</p>
+
+
+
+
+
+
+
+              <!-- object: image -->
+              <div class="image-wrapper">
+                <div class="article-lead-img-pan">
+                  <img class="img-fluid lazyload"
+                    srcset="./index-20.htm 300w?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=300&amp;scaleup=0 300w,./index-21.htm 600w?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=600&amp;scaleup=0 600w,./index-22.htm 900w?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=900&amp;scaleup=0 900w,./index-7.htm 1200w?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1200&amp;scaleup=0 1200w,./index-23.htm 1500w?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1500&amp;scaleup=0 1500w"
+                    src="./index-7.htm?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&amp;function=fit&amp;type=preview&amp;source=false&amp;q=75&amp;maxsize=1200&amp;scaleup=0"
+                    style="width: 100%; height: auto;" height="1024" width="1024" alt="">
+
+                </div>
+                <div class="article-lead-img-caption">
+
+                </div>
+              </div>
+
+
+
+
+
+
+              <!-- element: body -->
+              <p>“Just take a step back. Say, 'You are my brother. We are from one family, the human family, sharing one
+                home. And whatever you do influences me.' We need to start by taking personal responsibility for our own
+                actions, asking ourselves whether we are doing everything that is in our power to make our relationship,
+                environment, and contribution to the economy the best they can be,” she concluded.</p>
+
+
+
+
+
+
+
+              <!-- element: body -->
+              <p><strong id="strong-d9e5769f5c115b66b9fc388acc1a7d42">ALSO READ:</strong></p>
+
+
+
+
+
+
+
+              <ul class="alsoread-point-nf">
+                <li><a
+                    href="https://www.khaleejtimes.com/uae/look-this-giant-chair-from-150-year-old-tree-is-the-result-of-15000-hours-of-recycling">Look:
+                    This giant chair from 150-year-old tree is the result of 15,000 hours of recycling</a></li>
+              </ul>
+
+
+
+
+
+
+              <ul class="alsoread-point-nf">
+                <li><a
+                    href="https://www.khaleejtimes.com/uae/from-farm-to-table-expo-city-dubais-organic-farming-cultivates-sustainable-living">From
+                    farm to table: Expo City Dubai&#039;s organic farming cultivates sustainable living</a></li>
+              </ul>
+
+
+
+              <ul class="tags-btm-nf">
+                <li><a href="#header__scroll">COP 28</a></li>
+
+                <li><a href="#header__scroll">Newsletters</a></li>
+
+                <li><a href="#header__scroll">Dubai</a></li>
+              </ul>
+              <!-- </div> -->
+              <div class="author-wrapper-box">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-3 order-lg-1 author-photo">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-9 order-lg-2">
+                    <a href="#header__scroll">
+                      <h5>Waheed Abbas</h5>
+                    </a>
+                    <ul class="author-box-social-icons">
+                    </ul>
+
+                    <ul class="author-box-contact-info">
+                      <li><i class="fas fa-envelope"></i><a
+                          href="#header__scroll">waheedabbas@khaleejtimes.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div id="agora-article-below-1"></div>
+
+
+            </div>
+
+
+            <div class="load-next-article" data-triggerloadarticle="" data-article="1"></div>
+
+            <!--  -->
+            <!-- ANDBEYOND ABM  START  -->
+            <script async="" src="./prod-global-537953.js"></script>
+            <!-- ANDBEYOND ABM  END -->
+            <div class="row">
+              <div class="col-lg-12">
+                <!-- Speakol Scripts Start -->
+                <!--   -->
+                <br>
+                <!-- Speakol Scripts End -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="col-sm-12 col-md-12 col-lg-4 art-rt-cust-nf">
+          <div class="article-right-sidebar fixedsticky">
+            <section class="every_board">
+              <div class="row align-items-stretch">
+                <div class="col-12 board-col-xs-12 board-col-sm-12 board-col-md-12 board-col-lg-12 d-none d-lg-block">
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12">
+                    <script>
+                      setTimeout(function () {
+                        jQuery(".primary-header").attr('style', 'display: block !important');
+                        jQuery(".ins-preview-wrapper").remove();
+                        header = document.querySelector(".primary-header");
+                        stickyElem = document.querySelector(".sticky-div");
+                        mega = document.querySelector(".nav-overlay-nf");
+                        if (header != null && stickyElem != null && mega != null) {
+                          stickyElemBottom = stickyElem.getBoundingClientRect().bottom;
+                          stickyElemPos = stickyElem.getBoundingClientRect().bottom + window.pageYOffset;
+                          currStickyPos = header.getBoundingClientRect().bottom + window.pageYOffset + 50;
+                          window.onscroll = function () {
+                            stickyElemPos2 = stickyElem.getBoundingClientRect().bottom + window.pageYOffset;
+                            stickyElemPos3 = stickyElem.getBoundingClientRect().bottom;
+                            if (window.pageYOffset < currStickyPos && window.pageYOffset > stickyElemBottom) {
+                              mega.style.top = "-" + stickyElemPos2 + "px";
+                            } else {
+                              mega.style.top = stickyElemPos3 + "px";
+                            }
+                            if (window.pageYOffset > currStickyPos) {
+                              stickyElem.classList.add("is-sticky");
+                              stickyElem.classList.add("shadow-sm");
+                              mega.classList.add("is-sticky-enabled");
+                            } else {
+                              stickyElem.classList.remove("is-sticky");
+                              stickyElem.classList.remove("shadow-sm");
+                              mega.classList.remove("is-sticky-enabled");
+                            }
+                          };
+                        }
+                      }, 1000);
+
+                    </script>
+                  </div>
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12"
+                    id="ew-custom-html-30">
+                    <script>
+
+                      jQuery(".ins-preview-wrapper").remove();
+                    </script>
+                    <div class="mpu-ad-unit ad-unit  fix-mpu-nf"><!-- /78059622/Responsive-Article-MPU-1 -->
+                      <div id='div-gpt-ad-1613481060449-0'>
+                        <script>
+                          googletag.cmd.push(function () { googletag.display('div-gpt-ad-1613481060449-0'); });
+
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12">
+                    <div class="recommend-wrap-pan recommend-rt-netcore-0">
+                      <h3><img src="./wp-content/uploads/sites/2/2023/11/07121529/blue-line-new.jpg"
+                          style="padding-right:11px;"> Recommended For You</h3>
+                      <ul>
+                        <li><a
+                            href="https://www.khaleejtimes.com/life-and-living/keep-your-hands-happy-essential-hand-care-tips">Keep
+                            your hands happy: Essential hand care tips</a></li>
+                        <li><a
+                            href="https://www.khaleejtimes.com/life-and-living/how-much-sleep-do-you-really-need-2">How
+                            much sleep do you really need?</a></li>
+                        <li><a
+                            href="https://www.khaleejtimes.com/life-and-living/headache-different-types-of-headaches-and-their-remedies">Headache:
+                            Different types of headaches and their remedies </a></li>
+                        <li><a
+                            href="https://www.khaleejtimes.com/business/dubai-gold-pricing-why-an-attraction-for-gold-enthusiasts">Dubai
+                            gold pricing: Why an attraction for gold enthusiasts?</a></li>
+                        <li><a
+                            href="https://www.khaleejtimes.com/life-and-living/essential-hair-care-tips-for-beautiful-and-healthy-locks">Essential
+                            hair care tips for beautiful and healthy locks</a></li>
+                      </ul>
+
+
+
+                    </div>
+                  </div>
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12"
+                    id="ew-custom-html-96">
+                    <div class="golf_newsletter" style="display:none;"><img
+                        src="./wp-content/uploads/sites/2/2023/09/14152533/golf-image.jpg"
+                        style="width:100%; height:auto;">
+                      <div class="golf-lb newletter-widget-wrapper">
+                        <h3>Sign up for our golf newsletter</h3>
+                        <p>Get news and views from the world of golf delivered to your inbox every Wednesday. </p>
+                        <form id="submit-form-golf" name="submit-form" action="" method="post" novalidate="novalidate">
+                          <div class="form-group">
+                            <div class="newsletter-pan"><input type="email" class="form-control email-field"
+                                id="email_golf" name="email" required="" placeholder="Enter your email address"></div>
+                            <div class="newsletter-btn-pan"><button type="submit" value="SUBMIT" id="submit-form-5"
+                                class="btn btn-primary subscribe-btn">GO</button></div><label id="success_golf"
+                              class="success  alert-success" style="display: none;"></label><label id="email-error_golf"
+                              class="error" for="email_golf"></label>
+                            <div class="newsletter-terms"><input class="form-check-input rounded-0" type="checkbox"
+                                id="terms_golf" name="terms" value="1" checked="checked" required=""
+                                aria-label="Terms and Conditions"><span><a href="/privacy-policy" target="_blank">Terms
+                                  &amp; Conditions Apply</a></span><br><label id="tc-error_golf" class="error"
+                                for="tc"></label></div>
+                          </div>
+                        </form>
+                      </div>
+                      <script>
+                        jQuery("#success_golf").hide();
+                        jQuery("#submit-form-golf").submit(function (e) {
+                          e.preventDefault();
+                          var email = jQuery("#email_golf").val();
+                          var tc = jQuery("#terms_golf").val();
+                          if (!email) {
+                            jQuery("#email-error_golf").css({ "display": "inline-block", "color": "rgb(249 255 7)", "background": "none", "font-size": "13px", "text-shadow": "1px 1px 3px #000000a6" });
+                            jQuery("#email-error_golf").html("Email Required");
+                          }
+
+                          if (email && jQuery("#terms_golf").is(":checked")) {
+                            jQuery("#email-error_golf").html("");
+                            jQuery("#tc-error_golf").html("");
+                            jQuery("#success_golf").show();
+                            //  jQuery("#success").css("display","inline-block;color:#0179c8;background-color:black; ");
+                            jQuery("#success_golf").css({ "display": "inline-block", "color": "rgb(249 255 7)", "background": "none", "font-size": "13px", "text-shadow": "1px 1px 3px #000000a6" });
+                            jQuery("#success_golf").html("Thank you!, you are successfully subscribed");
+                            smartech('contact', '65', {
+                              'pk^email': email
+                            });
+                            smartech('identify', email);
+                            smartech('dispatch', 'newsletter sub 3', {
+                              'email': email
+                            });
+                            jQuery("#submit-form-golf")[0].reset();
+                          }
+                          else {
+                            if (jQuery("#terms_golf").is(":checked") == false) {
+                              jQuery("#tc-error_golf").css({ "display": "inline-block", "color": "rgb(249 255 7)", "background": "none", "font-size": "13px", "text-shadow": "1px 1px 3px #000000a6" });
+                              jQuery("#tc-error_golf").html("Please accept terms and conditions");
+                            }
+                          }
+                        });
+                      </script>
+                    </div>
+                    <script>
+                      jQuery(document).ready(function () {
+                        if (window.location.href.indexOf("sports") > -1) {
+                          jQuery(".old_newsletter").html("");
+                          jQuery(".newletter-widget-wrapper").css("margin-top", "0px");
+                          jQuery(".golf_newsletter").css("display", "block");
+                          jQuery(".old_newsletter").css("display", "none");
+                        }
+                      });
+                    </script>
+                  </div>
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12"
+                    id="ew-custom-html-29">
+                    <div class="mpu-ad-unit ad-unit  fix-mpu-nf"><!-- /78059622/Responsive-Article-MPU-2 -->
+                      <div id='div-gpt-ad-1613481175484-0'>
+                        <script>
+                          googletag.cmd.push(function () { googletag.display('div-gpt-ad-1613481175484-0'); });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12">
+                    <style>
+                      .trending-rt-wrap-pan h3 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 18px;
+                        font-weight: 700;
+                        border-bottom: solid 1px #dbdbdb;
+                        padding-bottom: 8px;
+                        margin-bottom: 15px;
+                      }
+
+                      .trending-rt-wrap-pan .tab-content ul {
+                        margin: 0;
+                        padding: 0;
+                        margin-bottom: 15px;
+                        margin-top: 10px !important;
+                      }
+
+                      .mb-3,
+                      .my-3 {
+                        margin-bottom: 0rem !important;
+                      }
+
+                      .calendar-lb-new {
+                        width: auto;
+                        text-align: left;
+                        padding: 16px 7px 0px 7px;
+                      }
+                    </style>
+
+
+                    <div class="trending-rt-wrap-pan trend-rt-netcore-0">
+                      <h3><img src="./wp-content/uploads/sites/2/2023/11/07121529/blue-line-new.jpg"
+                          style="padding-right:11px;"> Trending In</h3>
+
+                      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active default_first_article" id="pills-home-tab" data-toggle="pill"
+                            href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">UAE</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Entire Website</a>
+                        </li>
+
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                          aria-labelledby="pills-home-tab">
+                          <ul>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/low-maintenance-indoor-plants-suited-for-your-uae-home">Low-maintenance
+                                indoor plants suited for your UAE home</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/nutritional-powerhouse-benefits-of-dry-fruits-on-our-health">Nutritional
+                                powerhouse: Benefits of dry fruits on our health</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/panic-attacks-tips-to-manage-symptoms-and-regain-control">Panic
+                                attacks: Tips to manage symptoms and regain control</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/home-decor-how-to-transform-your-room-on-a-budget">Home
+                                decor: How to transform your room on a budget
+
+                              </a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/conquer-procrastination-tips-for-taking-charge-of-your-time">Conquer
+                                procrastination: Tips for taking charge of your time</a></li>
+                            <ul>
+                            </ul>
+                          </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                          aria-labelledby="pills-profile-tab">
+                          <ul>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/whats-your-skin-type-here-is-a-guide-to-different-skin-types-and-skincare">What’s
+                                your skin type? Here is a guide to different skin types and skincare</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/how-to-set-smart-goals-for-the-students">How
+                                to set SMART goals for the students?</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/happiness-hormones-a-guide-to-increasing-your-joy-and-well-being">Happiness
+                                hormones: A guide to increasing your joy and well-being</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/a-sweet-deal-for-your-health-6-natural-alternatives-to-white-sugar">A
+                                sweet deal for your health: 6 natural alternatives to white sugar</a></li>
+                            <li><a
+                                href="https://www.khaleejtimes.com/life-and-living/5-breathing-exercises-to-do-from-the-comfort-of-your-chair">5
+                                breathing exercises to do from the comfort of your chair</a></li>
+
+                          </ul>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div
+                    class="rendered_board_widget content-size-xs-12 content-size-sm-12 content-size-md-12 content-size-lg-12">
+                    <div id="agora-article-sidebar-1" style="margin-top:10px !important;"></div>
+                    <script>
+                      jQuery(document).ready(function () {
+                        var ntextj = jQuery(location).attr('pathname'); ntextj.indexOf(1); ntextj = ntextj.toUpperCase(); ntextj = ntextj.split("/")[1];
+
+                        jQuery(".default_first_article").html(ntextj).css({ "padding": " 0.3rem 0.8rem" });
+                      });
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div class="loaded-articles"></div>
+    <!-- More news from this concept -->
+    <div class="row no-gutters">
+      <div class="section-header col">
+        <h5 class="section-title text-uppercase font-weight-bold bordered-left">More news from COP 28</h5>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="b7b2f7b4-ef8e-45dd-9e05-8fc819713217">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/best-food-with-least-resources-uae-launches-food-innovation-hub-at-cop28"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=105&amp;height=59&amp;x=1.0E-5&amp;y=0.07317 105w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=235&amp;height=132&amp;x=1.0E-5&amp;y=0.07317 235w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=335&amp;height=188&amp;x=1.0E-5&amp;y=0.07317 335w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=500&amp;height=281&amp;x=1.0E-5&amp;y=0.07317 500w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=660&amp;height=371&amp;x=1.0E-5&amp;y=0.07317 660w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=775&amp;height=436&amp;x=1.0E-5&amp;y=0.07317 775w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=950&amp;height=534&amp;x=1.0E-5&amp;y=0.07317 950w,https://image.khaleejtimes.com?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84428&amp;width=1005&amp;height=565&amp;x=1.0E-5&amp;y=0.07317 1005w"
+                sizes="314px" loading="lazy"
+                alt="&#039;Best food with least resources&#039;: UAE launches food innovation hub at COP28"
+                style="width: 100%; height: auto;" height="1333" width="2000"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/best-food-with-least-resources-uae-launches-food-innovation-hub-at-cop28"
+                  title="&#039;Best food with least resources&#039;: UAE launches food innovation hub at COP28">&#039;Best
+                  food with least resources&#039;: UAE launches food innovation hub at COP28</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">This is the sixth hub that has been launched by the World Economic Forum to bring
+                together all global stakeholders under the farm-to-fork concept </p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">1 day ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="e80a904f-23d1-4fd6-8308-c0f77df325fd">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/abu-dhabis-new-circular-economy-framework-aims-to-reduce-industrial-process-waste-by-50"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=105&amp;height=59 105w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=235&amp;height=132 235w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=335&amp;height=188 335w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=500&amp;height=281 500w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=660&amp;height=371 660w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=775&amp;height=436 775w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=950&amp;height=534 950w,https://image.khaleejtimes.com?uuid=f2330d57-adae-51bf-a90c-77a260061cda&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84467&amp;x=0&amp;y=0&amp;width=1005&amp;height=565 1005w"
+                sizes="314px" loading="lazy"
+                alt="Abu Dhabi’s new circular economy framework aims to reduce industrial process waste by 50%"
+                style="width: 100%; height: auto;" height="612" width="919"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/abu-dhabis-new-circular-economy-framework-aims-to-reduce-industrial-process-waste-by-50"
+                  title="Abu Dhabi’s new circular economy framework aims to reduce industrial process waste by 50%">Abu
+                  Dhabi’s new circular economy framework aims to reduce industrial process waste by 50%</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">The new framework will guide businesses to use resources more responsibly</p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">1 day ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="1b378939-9111-4311-abad-99af916b4cfe">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/uae-to-get-regions-first-net-zero-energy-mosque"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=105&amp;height=59&amp;x=1.0E-5&amp;y=0.17385 105w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=235&amp;height=132&amp;x=1.0E-5&amp;y=0.17385 235w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=335&amp;height=188&amp;x=1.0E-5&amp;y=0.17385 335w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=500&amp;height=281&amp;x=1.0E-5&amp;y=0.17385 500w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=660&amp;height=371&amp;x=1.0E-5&amp;y=0.17385 660w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=775&amp;height=436&amp;x=1.0E-5&amp;y=0.17385 775w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=950&amp;height=534&amp;x=1.0E-5&amp;y=0.17385 950w,https://image.khaleejtimes.com?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.64655&amp;width=1005&amp;height=565&amp;x=1.0E-5&amp;y=0.17385 1005w"
+                sizes="314px" loading="lazy" alt="Look: UAE to get region&#039;s first net-zero energy mosque"
+                style="width: 100%; height: auto;" height="500" width="575"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/uae-to-get-regions-first-net-zero-energy-mosque"
+                  title="Look: UAE to get region&#039;s first net-zero energy mosque">Look: UAE to get region&#039;s
+                  first net-zero energy mosque</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">The construction of the mosque, which is set to break ground next year, will join
+                three other sustainability projects at Masdar City in Abu Dhabi</p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">1 day ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="74ce3830-68b3-42bc-afa8-77b9844338e7">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/cop28-gathers-2-4-billion-in-funds-to-focus-on-forests-oceans-and-ntds"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=105&amp;height=59 105w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=235&amp;height=132 235w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=335&amp;height=188 335w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=500&amp;height=281 500w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=660&amp;height=371 660w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=775&amp;height=436 775w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=950&amp;height=534 950w,https://image.khaleejtimes.com?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84364&amp;x=0&amp;y=0&amp;width=1005&amp;height=565 1005w"
+                sizes="314px" loading="lazy"
+                alt="COP28 gathers $2.4 billion in funds to focus on forests, oceans, and NTDs"
+                style="width: 100%; height: auto;" height="2667" width="4000"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/cop28-gathers-2-4-billion-in-funds-to-focus-on-forests-oceans-and-ntds"
+                  title="COP28 gathers $2.4 billion in funds to focus on forests, oceans, and NTDs">COP28 gathers $2.4
+                  billion in funds to focus on forests, oceans, and NTDs</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">$1.7 billion fund pledged to meet climate and biodiversity goals</p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">1 day ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="83551220-226d-44ce-9822-b945b03b6125">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/uae-president-un-secretary-general-discuss-cop28-agenda-and-regional-developments"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=105&amp;height=59 105w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=235&amp;height=132 235w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=335&amp;height=188 335w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=500&amp;height=281 500w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=660&amp;height=371 660w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=775&amp;height=436 775w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=950&amp;height=534 950w,https://image.khaleejtimes.com?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8529&amp;x=0&amp;y=0&amp;width=1005&amp;height=565 1005w"
+                sizes="314px" loading="lazy"
+                alt="UAE President, UN Secretary-General discuss COP28 agenda and regional developments"
+                style="width: 100%; height: auto;" height="5226" width="7924"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/uae-president-un-secretary-general-discuss-cop28-agenda-and-regional-developments"
+                  title="UAE President, UN Secretary-General discuss COP28 agenda and regional developments">UAE
+                  President, UN Secretary-General discuss COP28 agenda and regional developments</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">Antonio Guterres commends Sheikh Mohamed for establishing $30 billion fund for
+                global climate solutions </p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">2 days ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="7d511e8f-9c0e-4182-9bb9-d7ec11e45c1e">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/pope-urges-leaders-to-put-climate-fight-over-national-interests"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=105&amp;height=59 105w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=235&amp;height=132 235w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=335&amp;height=188 335w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=500&amp;height=281 500w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=660&amp;height=371 660w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=775&amp;height=436 775w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=950&amp;height=534 950w,https://image.khaleejtimes.com?uuid=6f45d929-7838-5a46-8282-714a94f39a02&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84382&amp;x=0&amp;y=0&amp;width=1005&amp;height=565 1005w"
+                sizes="314px" loading="lazy" alt="Pope urges leaders to put climate fight over national interests"
+                style="width: 100%; height: auto;" height="3751" width="5627"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/pope-urges-leaders-to-put-climate-fight-over-national-interests"
+                  title="Pope urges leaders to put climate fight over national interests">Pope urges leaders to put
+                  climate fight over national interests</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">He appeals for concrete political changes to prevent the planet&#039;s climate
+                spinning dangerously out of control</p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">2 days ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="73f7c213-5248-4cc5-813f-4d146e73e3e8">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/uae-777-million-pledge-to-defeat-neglected-tropical-diseases-help-1-6-billion-affected"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=105&amp;height=59&amp;x=1.0E-5&amp;y=0.00188 105w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=235&amp;height=132&amp;x=1.0E-5&amp;y=0.00188 235w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=335&amp;height=188&amp;x=1.0E-5&amp;y=0.00188 335w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=500&amp;height=281&amp;x=1.0E-5&amp;y=0.00188 500w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=660&amp;height=371&amp;x=1.0E-5&amp;y=0.00188 660w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=775&amp;height=436&amp;x=1.0E-5&amp;y=0.00188 775w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=950&amp;height=534&amp;x=1.0E-5&amp;y=0.00188 950w,https://image.khaleejtimes.com?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.84586&amp;width=1005&amp;height=565&amp;x=1.0E-5&amp;y=0.00188 1005w"
+                sizes="314px" loading="lazy"
+                alt="UAE: $777 million pledge to defeat neglected tropical diseases, help 1.6 billion affected"
+                style="width: 100%; height: auto;" height="2781" width="4182"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/uae-777-million-pledge-to-defeat-neglected-tropical-diseases-help-1-6-billion-affected"
+                  title="UAE: $777 million pledge to defeat neglected tropical diseases, help 1.6 billion affected">UAE:
+                  $777 million pledge to defeat neglected tropical diseases, help 1.6 billion affected</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">At the 2023 Reaching the Last Mile Forum held during COP28, donors answered the
+                urgent call to step up the fight against NTDs</p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">2 days ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <!-- notice teaser with image -->
+        <article class="post top-image-bottom-content" data-uuid="ff12604e-cef6-44ce-994c-d2f3aa82a06f">
+          <div class="post-thumbnail"><a
+              href="https://www.khaleejtimes.com/cop/uae-sunday-tickets-sold-out-for-cop28-green-zone"><img
+                class="lazyload"
+                data-srcset="https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=105&amp;height=59&amp;x=1.0E-5&amp;y=0.07865 105w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=235&amp;height=132&amp;x=1.0E-5&amp;y=0.07865 235w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=335&amp;height=188&amp;x=1.0E-5&amp;y=0.07865 335w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=500&amp;height=281&amp;x=1.0E-5&amp;y=0.07865 500w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=660&amp;height=371&amp;x=1.0E-5&amp;y=0.07865 660w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=775&amp;height=436&amp;x=1.0E-5&amp;y=0.07865 775w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=950&amp;height=534&amp;x=1.0E-5&amp;y=0.07865 950w,https://image.khaleejtimes.com?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.8427&amp;width=1005&amp;height=565&amp;x=1.0E-5&amp;y=0.07865 1005w"
+                sizes="314px" loading="lazy" alt="UAE: Sunday tickets sold out for COP28 green zone"
+                style="width: 100%; height: auto;" height="1709" width="2560"></a></div>
+          <div class="entry-container">
+            <div class="entry-header">
+              <p class="category-btn"><a href="/cop-28">cop</a></p>
+              <h2 class="post-title"><a
+                  href="https://www.khaleejtimes.com/cop/uae-sunday-tickets-sold-out-for-cop28-green-zone"
+                  title="UAE: Sunday tickets sold out for COP28 green zone">UAE: Sunday tickets sold out for COP28 green
+                  zone</a></h2>
+            </div>
+            <div class="entry-summary">
+              <p class="post-summary">After 2 days of exclusive access to government officials, delegates and
+                negotiators, the climate gathering opened to the public on Dec 3</p>
+              <p class="category"><a href="/cop-28">cop</a><!-- <span class="time">2 days ago</span>
+ --><span></span></p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- /78059622/Article-Skyscraper-Right-- start -->
+  <div id='div-gpt-ad-1699245123977-0' class='skyscraper-right-lb'>
+    <script>
+      googletag.cmd.push(function () { googletag.display('div-gpt-ad-1699245123977-0'); });
+    </script>
+  </div>
+  <!-- /78059622/Article-Skyscraper-Right-- end -->
+
+
+
+  <footer class="footer mt-4">
+    <div class="container">
+
+      <div class="row justify-content-lg-between">
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="footer-logo pt-5 pb-3">
+            <img class="lazyload" src="./wp-content/themes/ktd-theme/assets/images/khaleej-times-footer-logo.png"
+              alt="khaleejtimes footer" width="179" height="32" loading="lazy">
+          </div>
+          <div class="footer-copyright-text pt-5 pb-3">©2023 Galadari Printing and Publishing LLC. All rights reserved.
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="social_footer pt-5 pb-3">
+            <ul class="pr-0">
+              <li class="fb-color lazyload"><a href="https://www.facebook.com/khaleejtimes" target="_blank"
+                  aria-label="Facebook"><i class="fab fa-facebook-f lazyload"></i></a></li>
+              <li class="tw-color lazyload"><a href="https://twitter.com/khaleejtimes" target="_blank"
+                  aria-label="Twitter"><i class="fab fa-twitter lazyload"></i></a></li>
+              <li class="yt-color lazyload"><a href="https://www.youtube.com/khaleejtimes" target="_blank"
+                  aria-label="Youtube"><i class="fab fa-youtube lazyload"></i></a></li>
+              <li class="insta-color lazyload"><a href="https://instagram.com/khaleejtimes" target="_blank"
+                  aria-label="Instagram"><i class="fab fa-instagram lazyload"></i></a></li>
+              <li class="linkedin-color lazyload"><a href="https://www.linkedin.com/company/khaleejtimes"
+                  target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin-in lazyload"></i></a></li>
+              <li class="telegram-color lazyload"><a href="https://t.me/khaleejtimes" target="_blank"
+                  aria-label="Telegram"><i class="fab fa-telegram lazyload"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="row">
+        <!--
+    <div class="footer-logos-nf">
+      <a href=""><img src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/ktmobile.png" alt="khaleejtimes mobile"></a>
+    </div>
+    -->
+        <div class="footer-logos-nf">
+          <a target="_blank" href="https://buzzon.khaleejtimes.com/"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/buzzon.png" alt="khaleejtimes buzzon" width="98"
+              height="50" loading="lazy"></a>
+        </div>
+        <div class="footer-logos-nf">
+          <a target="_blank" href="/entertainment"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/citytimes-footer-logo.png" alt="khaleejtimes citytimes"
+              width="98" height="50" loading="lazy"></a>
+        </div>
+        <div class="footer-logos-nf">
+          <a target="_blank" href="/competitions"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/competitions.png" alt="khaleejtimes competitions"
+              width="140" height="50" loading="lazy"></a>
+        </div>
+        <div class="footer-logos-nf">
+          <a target="_blank" href="https://epaper.khaleejtimes.com/"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/epaper.png" alt="khaleejtimes epaper" width="98"
+              height="50" loading="lazy"></a>
+        </div>
+        <!--<div class="footer-logos-nf">
+      <a target="_blank" href="http://e.ktinspiredliving.com/"><img class="lazyload" src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/inspired.png" alt="khaleejtimes inspired" width="98" height="50" loading="lazy"/></a>
+    </div>
+     <div class="footer-logos-nf">
+      <a target="_blank" href="https://www.khaleejtimes.com/games"><img class="lazyload" src="https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/kt-puzzle.png" alt="khaleejtimes kt-puzzles" width="110" height="50" loading="lazy"/></a>
+    </div>-->
+        <div class="footer-logos-nf">
+          <a target="_blank" href="https://buzzon.khaleejtimes.com/ad-category/jobs-vacancies/"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/ktjobs.png" alt="khaleejtimes jobs" width="98"
+              height="50" loading="lazy"></a>
+        </div>
+        <div class="footer-logos-nf">
+          <a target="_blank" href="https://subscriptions.khaleejtimes.com/home/subscription"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/subscribe.png" alt="khaleejtimes Subscription"
+              width="157" height="50" loading="lazy"></a>
+        </div>
+        <div class="footer-logos-nf">
+          <a target="_blank" href="/lifestyle"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/wknd.png" alt="khaleejtimes wknd" width="98" height="50"
+              loading="lazy"></a>
+        </div>
+        <div class="footer-logos-nf">
+          <a target="_blank" href="https://www.youngtimes.com/"><img class="lazyload"
+              src="./wp-content/themes/ktd-theme/assets/images/yt.png" alt="khaleejtimes young times" width="98"
+              height="50" loading="lazy"></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  </div>
+
+
+  <script src="./wp-content/themes/ktd-theme/assets/js/intersection-observer.js"></script>
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: 'img.lazyload',
+      callback_loading: function (element) {
+        if (element.parentNode.offsetWidth) {
+          element.setAttribute('sizes', element.parentNode.offsetWidth + 'px');
+        }
+      }
+    };
+    window.addEventListener("LazyLoad::Initialized", function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    }, false);
+  </script>
+  <script async="" src="./npm/vanilla-lazyload%4017.4.0/dist/lazyload.min.js"></script>
+  <!-- Form Validation Files -->
+  <script src="./wp-content/themes/ktd-theme/assets/js/form-validation/jquery.validate.min.js"></script>
+  <script src="./wp-content/themes/ktd-theme/assets/js/form-validation/formfunction.js"></script>
+  <!-- Form Validation -->
+  <script src="./wp-content/themes/ktd-theme/assets/js/main.js?7222022"></script>
+  <!-- <script async src="https://dashboard.entitysport.com/widget/assets/js/widget.js"></script> -->
+  <script src="./wp-content/themes/ktd-theme/assets/js/bootstrap/bootstrap.min.js"></script>
+  <script src="./wp-content/themes/ktd-theme/assets/js/countdown.js"></script>
+
+
+
+
+
+
+
+
+
+  <script>
+
+    if (window.location.href.indexOf("prayer-time-uae/abu-dhabi") > -1) {
+      jQuery(".user_attributes").html("<span style='color:red'>*</span>  The timings below are for Dubai. Add four minutes for Abu Dhabi");
+      jQuery(".user_attributes").css({ "clear": "both", "padding-top": "10px", "font-family": "proxima_novabold", "margin-bottom": "15px" });
+    }
+
+    if (window.location.href.indexOf("prayer-time-uae/ras-al-khaimah") > -1) {
+      jQuery(".user_attributes").html("<span style='color:red'>*</span> The timings below are for Dubai.  Deduct four minutes for Ras Al Khaimah ");
+      jQuery(".user_attributes").css({ "clear": "both", "padding-top": "10px", "font-family": "proxima_novabold", "margin-bottom": "15px" });
+    }
+
+    if (window.location.href.indexOf("prayer-time-uae/fujairah") > -1) {
+      jQuery(".user_attributes").html("<span style='color:red'>*</span> The timings below are for Dubai. Deduct six minutes for Fujairah ");
+      jQuery(".user_attributes").css({ "clear": "both", "padding-top": "10px", "font-family": "proxima_novabold", "margin-bottom": "15px" });
+    }
+
+    // TODO: Move this to latest content widget scripts
+    jQuery(document).ready(function ($) {
+      $('.ew-latest-content-filter').on('change', function (e) {
+        var container = $(this).closest('.ew-latest-content-container');
+        var filter = container.find('.ew-latest-content-filter-container');
+        var loader = container.find('.loader');
+        var content = container.find('.ew-latest-content-articles');
+        var data = filter.find('select, input').serializeArray();
+        data.push({ name: 'action', value: 'filter_latest_content' });
+        jQuery.ajax({
+          url: '/ajax.php',
+          // url: infomaker.ajaxurl,
+          type: 'POST',
+          data: data,
+          dataType: 'JSON',
+          beforeSend: function () {
+            loader.show();
+          },
+          complete: function () {
+            loader.hide();
+          },
+          success: function (response) {
+            content.html(response.html);
+            lazyLoadInstance.update();
+          }
+        });
+      });
+
+
+
+
+
+    });
+
+
+    jQuery(".newletter-widget-wrapper").mouseenter(
+      function () {
+        //utag_data.newsletter_hover="true";
+        //utag_data.newsletter_visitorid=utag_data.tealium_visitor_id;		
+        utag.link({
+          "event_action": "Newsletter Hover", //Required
+          "event_category": "Newsletter",  //Required
+          "event_label": "Hover ", //Required
+          "newsletter_visitorid": "true",
+          "tealium_event": "newsletter_hover"  //Required
+        });
+      }
+    );
+
+
+    if (!getCookieValue('random_user')) {
+      var randoms = [1, 2];
+      var randomz = randoms[Math.floor(Math.random() * randoms.length)];
+      document.cookie = "random_user=" + randomz + ";path=/";
+    }
+
+
+  </script>
+
+
+  <script>
+    jQuery(document).ready(function () {
+      jQuery(".hamburger_menu_nf span").on("click", (function () {
+        var nheight = jQuery(".libin-class").height();
+        jQuery(".nav-overlay-nf").css({ 'top': nheight + 55 + 'px' });
+      }));
+    });
+  </script>
+
+  <!-- Adgebra footer code starts here -->
+  <!-- afp footer code starts here -->
+  <!-- afp footer code ends here -->
+  <!-- Adgebra footer code ends here -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Engage Script Start -->
+
+  <script type="text/javascript">
+    //let btn = document.querySelector(".dropbtn").addEventListener("click", engageDropdownHandler);
+
+    function engageDropdownHandler() {
+      document.getElementById("engageDropdown").classList.toggle("show");
+    }
+    window.onclick = (event) => {
+      if (!event.target.matches(".auth0_user")) {
+        let dropdowns = document.querySelectorAll(".dropdown-content");
+        let dropdownArr = Array.from(dropdowns);
+        dropdownArr.map((el) => {
+          if (el.classList.contains("show")) {
+            el.classList.remove("show");
+          }
+        });
+      }
+      else {
+        // dropdown-content.classList.remove("show"); 
+
+      }
+    };
+
+    /* window.setTimeout(function () {
+             var spajsval=getCookie("auth0_sub");
+                 document.cookie = "auth0_sub=" + spajsval + ";secure; domain=." + 								
+                                 location.hostname.split('.').reverse()[1] + "." + 
+                                 location.hostname.split('.').reverse()[0] + "; path=/; max-age=" + 45*24*60*60;
+         }, 1000);
+   */
+  </script>
+
+
+  <!-- Engage Script End -->
+
+  <script>
+    jQuery(document).ready(function () {
+      var dinstance = 1;
+      jQuery(".nodtranslate").click(function () {
+        if (dinstance == 1 || dinstance == 2) {
+          var selected_lang = jQuery(this).text().substr(0, 3);
+          document.cookie = "selected_lang=" + selected_lang + ";expires=Thu, 01 Jan 2050 00:00:00 UTC; path=/";
+          dinstance = dinstance + 1;
+        }
+        notimes = notimes + 1;
+      });
+
+      jQuery("#MG2logout").click(function () {
+        function delete_cookie(name) {
+          document.cookie = name + "=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT";
+          document.cookie = name + "=;path=/;domain=" + location.host + ";expires=Thu, 01 Jan 1970 00:00:01 GMT";
+          document.cookie = name + "=;path=/;domain=." + location.host + ";expires=Thu, 01 Jan 1970 00:00:01 GMT";
+          var arr = location.host.split(".");
+          var rootdomain = arr[arr.length - 2] + "." + arr[arr.length - 1];
+          document.cookie = name + "=;path=/;domain=" + rootdomain + ";expires=Thu, 01 Jan 1970 00:00:01 GMT";
+          document.cookie = name + "=;path=/;domain=." + rootdomain + ";expires=Thu, 01 Jan 1970 00:00:01 GMT";
+        }
+        delete_cookie("igmAuth");
+        delete_cookie("igmContent");
+        delete_cookie("igmRegID");
+        delete_cookie("auth0_spajs");
+        delete_cookie("auth0_sub");
+      });
+
+
+    });
+    jQuery('.dota-unlocalized-url').on('click', function (e) {
+
+      e.preventDefault();
+      let currentSelectedLanguage = jQuery(this).attr("lang");
+      let availableLanguages = ['en', 'hi', 'ml', 'ta'];
+      //let currentUrl = window.location;
+      let currentUrl = new URL("https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th"); // window.location;
+      //console.log(currentUrl.pathname);
+      let baseUrl = currentUrl.origin;
+      let currentPath = currentUrl.pathname;
+      let pathArray = currentPath.split('/');
+      pathArray.shift();
+      console.log(currentUrl);
+      let redirectPath = '';
+      if (!availableLanguages.includes(pathArray[0])) {
+        pathArray.unshift(currentSelectedLanguage)
+      } else {
+        if (currentSelectedLanguage == 'en') {
+          pathArray.shift();
+        } else {
+          pathArray[0] = currentSelectedLanguage;
+        }
+      }
+      redirectPath = pathArray.join('/');
+      console.log(baseUrl + '/' + redirectPath);
+      window.location.href = baseUrl + '/' + redirectPath;
+    });
+
+
+  </script>
+
+  <script>
+    var infiniteArticles = ["https:\/\/www.khaleejtimes.com\/cop\/dubai-bassem-youssef-hits-out-at-hypocrisy-of-developed-countries-climate-pledges", "https:\/\/www.khaleejtimes.com\/cop\/clean-energy-sets-sail-cop28-uae-spotlights-green-movement-on-waterways", "https:\/\/www.khaleejtimes.com\/cop\/first-uae-grown-repurposed-ev-to-debut-at-cop28", "https:\/\/www.khaleejtimes.com\/cop\/cop28-in-dubai-canada-to-target-methane-leaks-from-oil-and-gas-operations-in-new-rules"];
+  </script>
+  <script src="./wp-content/themes/ktd-theme/assets/js/ScrollTrigger.min.js"></script>
+  <script src="./wp-content/themes/ktd-theme/assets/js/swiper-bundle.min.js"></script>
+  <script src="./wp-content/themes/ktd-theme/assets/js/article.js"></script>
+  <script src="./wp-content/themes/ktd-theme/assets/js/scroll-load-more.js"></script>
+  <!-- Begin First impressions Tag -->
+
+  <!-- End First impressions Tag -->
+  <!-- <script async type="text/javascript" src="https://api.khaleejtimes.com/public/vendors/js/speakol/speakol.js"></script> -->
+
+  <!-- Search Modal -->
+  <div class="search-main-wrapper-nf modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog search-wrapper-nf">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id=""> <a href="/" class="standard-logo"><img
+                src="./wp-content/themes/ktd-theme/assets/images/khaleej-times-logo.svg" width="206" height="36"
+                alt="khaleejtimes"></a></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body d-flex flex-column h-100 justify-content-center align-items-center">
+          <div class="search-wrap-inner">
+            <h2>Type your keywords</h2>
+            <form name="searchform" id="searchform" action="/search">
+              <input type="text" id="search" class="search-field-nf" placeholder="Enter keywords here.." name="q">
+              <button type="submit" class="search-btn">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Interstitial Start -->
+
+  <!-- Google Interstitial End -->
+  <!--
+Cache generated: Tue, 05 Dec 2023 21:51:12 +0400
+-->
+  <script
+    type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "licenseKey": "NRJS-41a5a2f008560c7bdc5", "applicationID": "522948469", "transactionName": "MgcDNxYDWBBXWkZbXwtNIAAQC1kNGUpbXFcJB0wCFhZfAFpc", "queueTime": 0, "applicationTime": 1019, "atts": "HkAAQV4ZSx4=", "errorBeacon": "bam.nr-data.net", "agent": "" }</script>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=7&cb=270912761"
+    async=""></script>
+</body>
+
+</html>

@@ -1,0 +1,956 @@
+Uri: https://cdn.ampproject.org/v0.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-accordion-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-accordion-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-ad-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-ad-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-analytics-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-analytics-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-bind-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-bind-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-carousel-0.2.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-carousel-0.2.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-dailymotion-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-dynamic-css-classes-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-dynamic-css-classes-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-experiment-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-experiment-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-facebook-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-facebook-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-fit-text-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-fit-text-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-font-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-font-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-form-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-form-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-fx-flying-carpet-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-fx-flying-carpet-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-iframe-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-iframe-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-instagram-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-instagram-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-install-serviceworker-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-jwplayer-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-jwplayer-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-lightbox-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-lightbox-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-list-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-list-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-mustache-0.2.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-mustache-0.2.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-sidebar-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-sidebar-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-soundcloud-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-soundcloud-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-sticky-ad-1.0.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-twitter-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-twitter-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-video-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-video-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-vimeo-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-vimeo-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-youtube-0.1.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\v0\amp-youtube-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.4.0/dist/lazyload.min.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\npm\vanilla-lazyload@17.4.0\dist\lazyload.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.wgchrrammzv.com/prod/khaleejtimes/loader.min.js?ver=20230321
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\prod\khaleejtimes\loader.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\css\all.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-brands-400.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-brands-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-brands-400.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-brands-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-brands-400.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-brands-400.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-brands-400.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-brands-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-brands-400.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-regular-400.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-regular-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-regular-400.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-regular-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-regular-400.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-regular-400.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-regular-400.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-regular-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-regular-400.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-solid-900.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-solid-900.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-solid-900.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-solid-900-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-solid-900.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-solid-900.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-solid-900.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-solid-900.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/webfonts/fa-solid-900.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\font-awesome\5.12.0-2\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/ajax-loader.gif
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\ajax\libs\OwlCarousel2\2.3.4\assets\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://cdnt.netcoresmartech.com/smartechclient.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\smartechclient.js
+Content Type: application/javascript
+
+Uri: https://d.oracleinfinity.io/infy/acs/account/3635138d8e594c2c1be5bc1f505e5b30/js/media_bu/odc.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\infy\acs\account\3635138d8e594c2c1be5bc1f505e5b30\js\media_bu\odc.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700&display=swap
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBO5Xk.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\s\robotocondensed\v27\ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBO5Xk.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBO5Xk.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\s\robotocondensed\v27\ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBO5Xk.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotocondensed/v27/ieVW2ZhZI2eCN5jzbjEETS9weq8-19ehAyvMum7nfDB64RgK1X5pKQ.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\s\robotocondensed\v27\ieVW2ZhZI2eCN5jzbjEETS9weq8-19ehAyvMum7nfDB64RgK1X5pKQ.ttf
+Content Type: font/ttf
+
+Uri: https://image.khaleejtimes.com/?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.5625&width=540&height=304&x=1.0E-5&y=0.0975
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-27.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&function=fit&type=preview&source=false&q=75&maxsize=1200&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-7.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-23.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&function=fit&type=preview&source=false&q=75&maxsize=300&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-20.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&function=fit&type=preview&source=false&q=75&maxsize=600&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-21.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=440ea4be-6306-51c1-b8de-259c5bcb7891&function=fit&type=preview&source=false&q=75&maxsize=900&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-22.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=537e7a7b-2042-5469-ae12-eaf6cf37485a&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84428&width=1200&height=675&x=1.0E-5&y=0.07317
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-28.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=584da192-78fe-5fbb-8158-17dcef1154fa&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84364&x=0&y=0&width=1200&height=675
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-31.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=6016c29e-6a01-5dde-9ad1-a8c549d7be36&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84586&width=1200&height=675&x=1.0E-5&y=0.00188
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-34.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=6ef9c52d-f488-59c8-90e4-01905863687f&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.8529&x=0&y=0&width=1200&height=675
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-32.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=6f45d929-7838-5a46-8282-714a94f39a02&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84382&x=0&y=0&width=1200&height=675
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-33.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.5625&width=540&height=304&x=1.0E-5&y=0.1475
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-25.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&function=fit&type=preview&source=false&q=75&maxsize=1200&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-5.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-15.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&function=fit&type=preview&source=false&q=75&maxsize=300&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-12.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&function=fit&type=preview&source=false&q=75&maxsize=600&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-13.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=71f506ad-0e52-5ae3-bec9-b5c3903b6df0&function=fit&type=preview&source=false&q=75&maxsize=900&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-14.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=82310921-6360-526a-97cc-fc7db7999c04&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.8427&width=1500&height=844&x=1.0E-5&y=0.14232
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-1.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=be76acfd-9ae7-5aa7-83e8-86246f250305&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.64655&width=1200&height=675&x=1.0E-5&y=0.17385
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-30.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=c0d11029-2744-51ce-9963-58800b58de7d&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.8427&width=1500&height=844&x=1.0E-5&y=0.11423
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-3.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=d9a3c6a2-3d00-5df7-a1f3-f9fd3cbcde37&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.8427&width=1200&height=675&x=1.0E-5&y=0.07865
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-35.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=1200&height=675&x=1.0E-5&y=0.413
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-4.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=1500&height=844&x=1.0E-5&y=0.413
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-11.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=300&height=169&x=1.0E-5&y=0.413
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-8.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=540&height=304&x=1.0E-5&y=0.413
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-24.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=600&height=338&x=1.0E-5&y=0.413
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-9.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=e644d99d-5c1d-5413-946c-3216164e106b&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.45&width=900&height=506&x=1.0E-5&y=0.413
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-10.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ee38c150-5d16-5aa0-a817-e4d2dc0badba&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.99956&x=0&y=0&width=1500&height=844
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-2.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.5625&width=540&height=304&x=1.0E-5&y=0.0975
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-26.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&function=fit&type=preview&source=false&q=75&maxsize=1200&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-6.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-19.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&function=fit&type=preview&source=false&q=75&maxsize=300&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-16.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&function=fit&type=preview&source=false&q=75&maxsize=600&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-17.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=ef92c9a0-7cda-57e8-9b51-616efa6f666a&function=fit&type=preview&source=false&q=75&maxsize=900&scaleup=0
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-18.htm
+Content Type: image/jpeg
+
+Uri: https://image.khaleejtimes.com/?uuid=f2330d57-adae-51bf-a90c-77a260061cda&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.84467&x=0&y=0&width=1200&height=675
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index-29.htm
+Content Type: image/jpeg
+
+Uri: https://rtbcdn.andbeyond.media/
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\index.htm
+Content Type: application/xml
+
+Uri: https://rtbcdn.andbeyond.media/prod-global-537953.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\prod-global-537953.js
+Content Type: text/javascript
+
+Uri: https://rtbcdn.andbeyond.media/prodprebidheader-107957.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\prodprebidheader-107957.js
+Content Type: text/javascript
+
+Uri: https://securepubads.g.doubleclick.net/tag/js/gpt.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\tag\js\f.txt
+Content Type: text/javascript
+
+Uri: https://static.khaleejtimes.com/wp-content/uploads/sites/2/2023/09/14152533/golf-image.jpg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\uploads\sites\2\2023\09\14152533\golf-image.jpg
+Content Type: image/jpeg
+
+Uri: https://static.khaleejtimes.com/wp-content/uploads/sites/2/2023/11/07121529/blue-line-new.jpg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\uploads\sites\2\2023\11\07121529\blue-line-new.jpg
+Content Type: image/jpeg
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/css/all.css
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\css\all.css
+Content Type: text/css
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-brands-400.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-regular-400.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\releases\v5.8.1\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\cop\lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th.html
+Content Type: text/html
+
+Uri: https://www.khaleejtimes.com/cop/lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th?amp=1
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\cop\lions-snow-and-a-100-year-old-chief-meet-dr-sasa-bozic-who-lived-with-11-tribes-in-11-countries-th-1.html
+Content Type: text/html
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/article-compress.css?ver=1.0.6
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\article-compress.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/bootstrap/bootstrap.min.css
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\bootstrap\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/compressed-home-layout.css?ver=1.0.0.3
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\compressed-home-layout.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fa/all.min.css
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fa\all.min.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts.css
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/fontsfree-net-proxima-nova-sbold-webfont.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\fontsfree-net-proxima-nova-sbold-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/fontsfree-net-proxima-nova-sbold-webfont.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\fontsfree-net-proxima-nova-sbold-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Black.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Black.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Black.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Black-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Black.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Black.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Black.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Black.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Black.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Black.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Black.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Black.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BlackItalic.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BlackItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BlackItalic.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BlackItalic-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BlackItalic.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BlackItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BlackItalic.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BlackItalic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BlackItalic.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BlackItalic.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BlackItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BlackItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Bold.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Bold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Bold.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Bold-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Bold.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Bold.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Bold.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Bold.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Bold.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Bold.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Bold.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Bold.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BoldItalic.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BoldItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BoldItalic.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BoldItalic-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BoldItalic.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BoldItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BoldItalic.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BoldItalic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BoldItalic.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BoldItalic.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-BoldItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-BoldItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Light.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Light.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Light.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Light-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Light.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Light.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Light.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Light.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Light.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Light.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Light.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Light.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-LightItalic.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-LightItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-LightItalic.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-LightItalic-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-LightItalic.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-LightItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-LightItalic.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-LightItalic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-LightItalic.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-LightItalic.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-LightItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-LightItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Medium.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Medium.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Medium.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Medium-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Medium.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Medium.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Medium.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Medium.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Medium.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Medium.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Medium.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Medium.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-MediumItalic.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-MediumItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-MediumItalic.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-MediumItalic-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-MediumItalic.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-MediumItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-MediumItalic.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-MediumItalic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-MediumItalic.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-MediumItalic.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-MediumItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-MediumItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Regular.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Regular.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Regular.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Regular.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Regular.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Regular.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Regular.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Regular.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-Regular.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-Regular.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-RegularItalic.eot
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-RegularItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-RegularItalic.eot?
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-RegularItalic-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-RegularItalic.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-RegularItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-RegularItalic.ttf
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-RegularItalic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-RegularItalic.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-RegularItalic.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/lyon/LyonDisplay-RegularItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\lyon\LyonDisplay-RegularItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/proximanova-regular-webfont.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\proximanova-regular-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/proximanova-regular-webfont.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\proximanova-regular-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/proxima_nova_bold-webfont.woff
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\proxima_nova_bold-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/proxima_nova_bold-webfont.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\proxima_nova_bold-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Black.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Black.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-BlackItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-BlackItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Bold.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Bold.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-BoldItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-BoldItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Book.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Book.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-BookItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-BookItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Light.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Light.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-LightItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-LightItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Medium.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Medium.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-MediumItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-MediumItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Semibold.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Semibold.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-SemiboldItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-SemiboldItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-Thin.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-Thin.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/fonts/stag/Stag-ThinItalic.woff2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\fonts\stag\Stag-ThinItalic.woff2
+Content Type: application/octet-stream
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/new-home-layout.css?ver=3.0.1.2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\new-home-layout.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/style-2-18-2021-custom.css?ver=3.0.0.2
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\style-2-18-2021-custom.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/style-2-18-2021.css?ver=3.0.1.3
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\style-2-18-2021.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/css/swiper-bundle.min.css
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\css\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/android.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\android.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/apple.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\apple.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/buzzon.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\buzzon.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/citytimes-footer-logo.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\citytimes-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/competitions.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\competitions.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/epaper.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\epaper.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/google-news-icon.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\google-news-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/huawei.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\huawei.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/khaleej-times-footer-logo.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\khaleej-times-footer-logo.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/khaleej-times-logo.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\khaleej-times-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/kt-icon-head.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\kt-icon-head.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/ktjobs.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\ktjobs.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/masjid-small-hover-nf.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\masjid-small-hover-nf.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/masjid-small-nf.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\masjid-small-nf.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/subscribe.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\subscribe.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/telegram-icon.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\telegram-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/whatsapp-icon.svg
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\whatsapp-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/wknd.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\wknd.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/images/yt.png
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\images\yt.png
+Content Type: image/png
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/article.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\article.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/bootstrap/bootstrap.min.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\bootstrap\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/countdown.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\countdown.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/engage_kt_prod_trg.js?ver=20231023001
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\engage_kt_prod_trg.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/form-validation/formfunction.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\form-validation\formfunction.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/form-validation/jquery.validate.min.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\form-validation\jquery.validate.min.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/intersection-observer.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\intersection-observer.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/jquery-3.6.0.min.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/main.js?7222022
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/prayer_script.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\prayer_script.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/scroll-load-more.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\scroll-load-more.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/ScrollTrigger.min.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\ScrollTrigger.min.js
+Content Type: application/javascript
+
+Uri: https://www.khaleejtimes.com/wp-content/themes/ktd-theme/assets/js/swiper-bundle.min.js
+File Name: C:\Users\petro\OneDrive\Рабочий стол\www.khaleejtimes.com\wp-content\themes\ktd-theme\assets\js\swiper-bundle.min.js
+Content Type: application/javascript
+
